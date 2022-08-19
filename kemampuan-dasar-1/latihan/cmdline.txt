@@ -1,0 +1,1739 @@
+C:\Users\Nailatur Rahmadiah>ping
+
+Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+            [-4] [-6] target_name
+
+Options:
+    -t             Ping the specified host until stopped.
+                   To see statistics and continue - type Control-Break;
+                   To stop - type Control-C.
+    -a             Resolve addresses to hostnames.
+    -n count       Number of echo requests to send.
+    -l size        Send buffer size.
+    -f             Set Don't Fragment flag in packet (IPv4-only).
+    -i TTL         Time To Live.
+    -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
+                   and has no effect on the type of service field in the IP
+                   Header).
+    -r count       Record route for count hops (IPv4-only).
+    -s count       Timestamp for count hops (IPv4-only).
+    -j host-list   Loose source route along host-list (IPv4-only).
+    -k host-list   Strict source route along host-list (IPv4-only).
+    -w timeout     Timeout in milliseconds to wait for each reply.
+    -R             Use routing header to test reverse route also (IPv6-only).
+                   Per RFC 5095 the use of this routing header has been
+                   deprecated. Some systems may drop echo requests if
+                   this header is used.
+    -S srcaddr     Source address to use.
+    -c compartment Routing compartment identifier.
+    -p             Ping a Hyper-V Network Virtualization provider address.
+    -4             Force using IPv4.
+    -6             Force using IPv6.
+C:\Users\Nailatur Rahmadiah>whoami
+desktop-3cvm5na\nailatur rahmadiah
+C:\Users\Nailatur Rahmadiah>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::dc18:a06:3008:5e65%15
+   IPv4 Address. . . . . . . . . . . : 172.16.4.141
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 172.16.4.254
+
+Tunnel adapter isatap.{EDF1315A-804F-4682-A498-26E4FF31DC33}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2001:0:2851:782c:420:26d5:4b01:9e91
+   Link-local IPv6 Address . . . . . : fe80::420:26d5:4b01:9e91%13
+   Default Gateway . . . . . . . . . : ::
+C:\Users\Nailatur Rahmadiah>Hostname
+DESKTOP-3CVM5NA
+C:\Users\Nailatur Rahmadiah>Getmac
+
+Physical Address    Transport Name
+=================== ==========================================================
+68-94-23-7A-2A-83   \Device\Tcpip_{EDF1315A-804F-4682-A498-26E4FF31DC33}
+20-6A-8A-E3-0A-7C   Media disconnected
+C:\Users\Nailatur Rahmadiah>Chdir
+C:\Users\Nailatur Rahmadiah
+C:\Users\Nailatur Rahmadiah>Systeminfo
+
+Host Name:                 DESKTOP-3CVM5NA
+OS Name:                   Microsoft Windows 10 Enterprise 2016 LTSB
+OS Version:                10.0.14393 N/A Build 14393
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Windows User
+Registered Organization:
+Product ID:                00380-70000-00001-AAOEM
+Original Install Date:     8/19/2022, 12:48:36 AM
+System Boot Time:          8/19/2022, 8:00:01 AM
+System Manufacturer:       Acer
+System Model:              Aspire V5-471G
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 58 Stepping 9 GenuineIntel ~799 Mhz
+BIOS Version:              Phoenix Technologies Ltd. V1.16, 9/7/2012
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume2
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+Total Physical Memory:     3,892 MB
+Available Physical Memory: 1,736 MB
+Virtual Memory: Max Size:  5,300 MB
+Virtual Memory: Available: 2,488 MB
+Virtual Memory: In Use:    2,812 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-3CVM5NA
+Hotfix(s):                 4 Hotfix(s) Installed.
+                           [01]: KB4054590
+                           [02]: KB4132216
+                           [03]: KB4338832
+                           [04]: KB4345418
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Qualcomm Atheros AR5BWB222 Wireless Network Adapter
+                                 Connection Name: Wi-Fi
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     172.16.4.254
+                                 IP address(es)
+                                 [01]: 172.16.4.141
+                                 [02]: fe80::dc18:a06:3008:5e65
+                           [02]: Realtek PCIe GBE Family Controller
+                                 Connection Name: Ethernet
+                                 Status:          Media disconnected
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+C:\Users\Nailatur Rahmadiah>Tree
+Folder PATH listing
+Volume serial number is 00000083 009C:7951
+C:.
++---Contacts
++---Desktop
++---Documents
++---Downloads
++---Favorites
+¦   +---Links
++---Links
++---Music
++---Pictures
++---Saved Games
++---Searches
++---Videos
+C:\Users\Nailatur Rahmadiah>Mkdir
+The syntax of the command is incorrect.
+C:\Users\Nailatur Rahmadiah>Assoc
+.386=vxdfile
+.3g2=WMP11.AssocFile.3G2
+.3gp=WMP11.AssocFile.3GP
+.3gp2=WMP11.AssocFile.3G2
+.3GPP=WMP11.AssocFile.3GP
+.7z=WinRAR
+.aac=WMP11.AssocFile.ADTS
+.accda=Access.ACCDAExtension.15
+.accdb=Access.Application.15
+.accdc=Access.ACCDCFile.15
+.accde=Access.ACCDEFile.15
+.accdr=Access.ACCDRFile.15
+.accdt=Access.ACCDTFile.15
+.accdu=Access.WizardUserDataFile.15
+.accdw=Access.WebApplicationReference.15
+.accft=Access.ACCFTFile.15
+.accountpicture-ms=accountpicturefile
+.ace=WinRAR
+.acl=ACLFile
+.ade=Access.ADEFile.15
+.adn=Access.BlankProjectTemplate.15
+.adp=Access.Project.15
+.adt=WMP11.AssocFile.ADTS
+.adts=WMP11.AssocFile.ADTS
+.AIF=WMP11.AssocFile.AIFF
+.AIFC=WMP11.AssocFile.AIFF
+.AIFF=WMP11.AssocFile.AIFF
+.ani=anifile
+.appcontent-ms=ApplicationContent
+.application=Application.Manifest
+.appref-ms=Application.Reference
+.arj=WinRAR
+.asa=aspfile
+.ASF=WMP11.AssocFile.ASF
+.asp=aspfile
+.ASX=WMP11.AssocFile.ASX
+.AU=WMP11.AssocFile.AU
+.avi=WMP11.AssocFile.AVI
+.aw=AWFile
+.bat=batfile
+.blg=Diagnostic.Perfmon.Document
+.bmp=Paint.Picture
+.bz=WinRAR
+.bz2=WinRAR
+.cab=WinRAR
+.camp=campfile
+.cat=CATFile
+.CDA=WMP11.AssocFile.CDA
+.cdmp=cdmpfile
+.cdx=aspfile
+.cdxml=Microsoft.PowerShellCmdletDefinitionXML.1
+.cer=CERFile
+.chk=chkfile
+.chm=chm.file
+.cmd=cmdfile
+.com=comfile
+.compositefont=Windows.CompositeFont
+.contact=contact_wab_auto_file
+.cpl=cplfile
+.crl=CRLFile
+.crt=CERFile
+.crtx=CRTXFile
+.css=CSSfile
+.csv=Excel.CSV
+.cur=curfile
+.db=dbfile
+.dctx=IMEDictionaryCompiler
+.dctxc=IMEDictionaryCompiler
+.dds=ddsfile
+.der=CERFile
+.desklink=CLSID\{9E56BE61-C50F-11CF-9A2C-00A0C90A90CE}
+.deskthemepack=desktopthemepackfile
+.det=Outlook.File.det.15
+.diagcab=Diagnostic.Cabinet
+.diagcfg=Diagnostic.Config
+.diagpkg=Diagnostic.Document
+.dib=Paint.Picture
+.dic=txtfile
+.dll=dllfile
+.doc=Word.Document.8
+.dochtml=wordhtmlfile
+.docm=Word.DocumentMacroEnabled.12
+.docmhtml=wordmhtmlfile
+.docx=Word.Document.12
+.docxml=wordxmlfile
+.dot=Word.Template.8
+.dothtml=wordhtmltemplate
+.dotm=Word.TemplateMacroEnabled.12
+.dotx=Word.Template.12
+.dqy=dqyfile
+.drv=drvfile
+.dsn=MSDASQL
+.dwfx=Windows.XPSReachViewer
+.easmx=Windows.XPSReachViewer
+.edrwx=Windows.XPSReachViewer
+.elm=ELMFile
+.emf=emffile
+.eml=Outlook.File.eml.15
+.eprtx=Windows.XPSReachViewer
+.evt=evtfile
+.evtx=evtxfile
+.exc=txtfile
+.exe=exefile
+.fdm=Outlook.File.fdm.15
+.flac=WMP11.AssocFile.FLAC
+.fon=fonfile
+.gcsx=GCSXFile
+.gif=giffile
+.gitattributes=txtfile
+.gitignore=txtfile
+.gitmodules=txtfile
+.glox=GLOXFile
+.gmmp=gmmpfile
+.gqsx=GQSXFile
+.gra=MSGraph.Chart.8
+.group=group_wab_auto_file
+.grp=MSProgramGroup
+.gz=WinRAR
+.hlp=hlpfile
+.hol=Outlook.File.hol.15
+.hta=htafile
+.htm=htmlfile
+.html=htmlfile
+.hxa=MSHelp.hxa.2.5
+.hxc=MSHelp.hxc.2.5
+.hxd=MSHelp.hxd.2.5
+.hxe=MSHelp.hxe.2.5
+.hxf=MSHelp.hxf.2.5
+.hxh=MSHelp.hxh.2.5
+.hxi=MSHelp.hxi.2.5
+.hxk=MSHelp.hxk.2.5
+.hxq=MSHelp.hxq.2.5
+.hxr=MSHelp.hxr.2.5
+.hxs=MSHelp.hxs.2.5
+.hxt=MSHelp.hxt.2.5
+.hxv=MSHelp.hxv.2.5
+.hxw=MSHelp.hxa.2.5
+.icc=icmfile
+.icl=IconLibraryFile
+.icm=icmfile
+.ico=icofile
+.ics=Outlook.File.ics.15
+.igp=Intel.GraphicsControlPanel.igp.1
+.imesx=imesxfile
+.img=Windows.IsoFile
+.inf=inffile
+.infopathxml=InfoPath.Document.4
+.ini=inifile
+.iqy=iqyfile
+.iso=Windows.IsoFile
+.jar=WinRAR
+.jfif=pjpegfile
+.Job=JobObject
+.jod=Microsoft.Jet.OLEDB.4.0
+.jpe=jpegfile
+.jpeg=jpegfile
+.jpg=jpegfile
+.js=JSFile
+.JSE=JSEFile
+.jtx=Windows.XPSReachViewer
+.jxr=wdpfile
+.label=Label
+.laccdb=Access.LockFile.15
+.ldb=Access.LockFile.15
+.lex=LEXFile
+.lha=WinRAR
+.library-ms=LibraryFolder
+.lnk=lnkfile
+.log=txtfile
+.lzh=WinRAR
+.M1V=WMP11.AssocFile.MPEG
+.M2T=WMP11.AssocFile.M2TS
+.M2TS=WMP11.AssocFile.M2TS
+.M2V=WMP11.AssocFile.MPEG
+.M3U=WMP11.AssocFile.m3u
+.M4A=WMP11.AssocFile.M4A
+.M4V=WMP11.AssocFile.MP4
+.mad=Access.Shortcut.Module.1
+.maf=Access.Shortcut.Form.1
+.mag=Access.Shortcut.Diagram.1
+.mam=Access.Shortcut.Macro.1
+.mapimail=CLSID\{9E56BE60-C50F-11CF-9A2C-00A0C90A90CE}
+.maq=Access.Shortcut.Query.1
+.mar=Access.Shortcut.Report.1
+.mas=Access.Shortcut.StoredProcedure.1
+.mat=Access.Shortcut.Table.1
+.mau=Access.Shortcut.Function.1
+.mav=Access.Shortcut.View.1
+.maw=Access.Shortcut.DataAccessPage.1
+.mda=Access.Extension.15
+.mdb=Access.MDBFile
+.mdbhtml=accesshtmlfile
+.mde=Access.MDEFile.15
+.mdn=Access.BlankDatabaseTemplate.15
+.mdt=Access.WizardDataFile.15
+.mdw=Access.Workgroup.15
+.mht=mhtmlfile
+.mhtml=mhtmlfile
+.MID=WMP11.AssocFile.MIDI
+.MIDI=WMP11.AssocFile.MIDI
+.MK3D=WMP11.AssocFile.MK3D
+.MKA=WMP11.AssocFile.MKA
+.MKV=WMP11.AssocFile.MKV
+.mlc=LpkSetup.1
+.MOD=WMP11.AssocFile.MPEG
+.MOV=WMP11.AssocFile.MOV
+.MP2=WMP11.AssocFile.MP3
+.MP2V=WMP11.AssocFile.MPEG
+.mp3=WMP11.AssocFile.MP3
+.MP4=WMP11.AssocFile.MP4
+.MP4V=WMP11.AssocFile.MP4
+.mpa=WMP11.AssocFile.MPEG
+.MPE=WMP11.AssocFile.MPEG
+.MPEG=WMP11.AssocFile.MPEG
+.MPG=WMP11.AssocFile.MPEG
+.MPV2=WMP11.AssocFile.MPEG
+.ms-one-stub=Groove.SPFS.OneNoteStub
+.ms-windows-store-license=WindowsStore.License
+.msc=MSCFile
+.msg=Outlook.File.msg.15
+.msi=Msi.Package
+.msp=Msi.Patch
+.msrcincident=RemoteAssistance.1
+.msstyles=msstylesfile
+.msu=Microsoft.System.Update.1
+.MTS=WMP11.AssocFile.M2TS
+.mydocs=CLSID\{ECF03A32-103D-11d2-854D-006008059367}
+.nfo=MSInfoFile
+.nk2=Outlook.File.nk2.15
+.ocx=ocxfile
+.odc=odcfile
+.odccubefile=odccubefile
+.odcdatabasefile=odcdatabasefile
+.odcnewfile=odcnewfile
+.odctablecollectionfile=odctablecollectionfile
+.odctablefile=odctablefile
+.odp=PowerPoint.OpenDocumentPresentation.12
+.ods=Excel.OpenDocumentSpreadsheet.12
+.odt=Word.OpenDocumentText.12
+.ofs=Outlook.File.ofs.15
+.oft=Outlook.File.oft.15
+.ols=OfficeListShortcut
+.one=OneNote.Section.1
+.onepkg=OneNote.Package
+.onetoc=OneNote.TableOfContents
+.onetoc2=OneNote.TableOfContents.12
+.opc=OPCFile
+.oqy=oqyfile
+.osdx=opensearchdescription
+.ost=Outlook.File.ost.15
+.otf=otffile
+.otm=Outlook.File.otm.15
+.oxps=Windows.XPSReachViewer
+.p10=P10File
+.p12=PFXFile
+.p7b=SPCFile
+.p7c=certificate_wab_auto_file
+.p7m=P7MFile
+.p7r=P7RFile
+.p7s=P7SFile
+.pab=Outlook.File.pab.15
+.pano=Panoramic File
+.partial=IE.AssocFile.PARTIAL
+.pbk=pbkfile
+.pcb=PCBFile
+.perfmoncfg=Diagnostic.Perfmon.Config
+.pfm=pfmfile
+.pfx=PFXFile
+.pif=piffile
+.pko=PKOFile
+.pnf=pnffile
+.png=pngfile
+.pot=PowerPoint.Template.8
+.pothtml=powerpointhtmltemplate
+.potm=PowerPoint.TemplateMacroEnabled.12
+.potx=PowerPoint.Template.12
+.ppa=PowerPoint.Addin.8
+.ppam=PowerPoint.Addin.12
+.ppkg=Microsoft.ProvTool.Provisioning.1
+.pps=PowerPoint.SlideShow.8
+.ppsm=PowerPoint.SlideShowMacroEnabled.12
+.ppsx=PowerPoint.SlideShow.12
+.ppt=PowerPoint.Show.8
+.ppthtml=powerpointhtmlfile
+.pptm=PowerPoint.ShowMacroEnabled.12
+.pptmhtml=powerpointmhtmlfile
+.pptx=PowerPoint.Show.12
+.pptxml=powerpointxmlfile
+.prf=prffile
+.printerExport=brmFile
+.ps1=Microsoft.PowerShellScript.1
+.ps1xml=Microsoft.PowerShellXMLData.1
+.psc1=Microsoft.PowerShellConsole.1
+.psd1=Microsoft.PowerShellData.1
+.psm1=Microsoft.PowerShellModule.1
+.pssc=Microsoft.PowerShellSessionConfiguration.1
+.pst=Outlook.File.pst.15
+.pub=Publisher.Document.15
+.pubhtml=publisherhtmlfile
+.pubmhtml=publishermhtmlfile
+.pwz=PowerPoint.Wizard.8
+.qds=SavedDsQuery
+.r00=WinRAR
+.r01=WinRAR
+.r02=WinRAR
+.r03=WinRAR
+.r04=WinRAR
+.r05=WinRAR
+.r06=WinRAR
+.r07=WinRAR
+.r08=WinRAR
+.r09=WinRAR
+.r10=WinRAR
+.r11=WinRAR
+.r12=WinRAR
+.r13=WinRAR
+.r14=WinRAR
+.r15=WinRAR
+.r16=WinRAR
+.r17=WinRAR
+.r18=WinRAR
+.r19=WinRAR
+.r20=WinRAR
+.r21=WinRAR
+.r22=WinRAR
+.r23=WinRAR
+.r24=WinRAR
+.r25=WinRAR
+.r26=WinRAR
+.r27=WinRAR
+.r28=WinRAR
+.r29=WinRAR
+.rar=WinRAR
+.rat=ratfile
+.RDP=RDP.File
+.reg=regfile
+.rels=xmlfile
+.resmoncfg=Diagnostic.Resmon.Config
+.rev=WinRAR.REV
+.rle=rlefile
+.rll=dllfile
+.RMI=WMP11.AssocFile.MIDI
+.rqy=rqyfile
+.rtf=Word.RTF.8
+.scf=SHCmdFile
+.scp=txtfile
+.scr=scrfile
+.sct=scriptletfile
+.search-ms=SearchFolder
+.searchConnector-ms=SearchConnectorFolder
+.settingcontent-ms=SettingContent
+.sfcache=RDBFileProperties.1
+.sh=sh_auto_file
+.sldm=PowerPoint.SlideMacroEnabled.12
+.sldx=PowerPoint.Slide.12
+.slk=Excel.SLK
+.SND=WMP11.AssocFile.AU
+.spc=SPCFile
+.spl=ShockwaveFlash.ShockwaveFlash
+.sst=CertificateStoreFile
+.svg=svgfile
+.swf=ShockwaveFlash.ShockwaveFlash
+.symlink=.symlink
+.sys=sysfile
+.tar=WinRAR
+.taz=WinRAR
+.tbz=WinRAR
+.tbz2=WinRAR
+.tgz=WinRAR
+.theme=themefile
+.themepack=themepackfile
+.thmx=OfficeTheme.12
+.tif=TIFImage.Document
+.tiff=TIFImage.Document
+.TS=WMP11.AssocFile.TTS
+.ttc=ttcfile
+.ttf=ttffile
+.TTS=WMP11.AssocFile.TTS
+.txt=txtfile
+.txz=WinRAR
+.UDL=MSDASC
+.url=InternetShortcut
+.uu=WinRAR
+.uue=WinRAR
+.uxdc=UXDCFILE
+.VBE=VBEFile
+.vbs=VBSFile
+.vcf=Outlook.File.vcf.15
+.vcs=Outlook.File.vcs.15
+.vdw=VisioViewer.Viewer
+.vdx=VisioViewer.Viewer
+.vhd=Windows.VhdFile
+.vhdx=Windows.VhdFile
+.vsd=VisioViewer.Viewer
+.vsdm=VisioViewer.Viewer
+.vsdx=VisioViewer.Viewer
+.vss=VisioViewer.Viewer
+.vssm=VisioViewer.Viewer
+.vssx=VisioViewer.Viewer
+.vst=VisioViewer.Viewer
+.vstm=VisioViewer.Viewer
+.vsto=bootstrap.vsto.1
+.vstx=VisioViewer.Viewer
+.vsx=VisioViewer.Viewer
+.vtx=VisioViewer.Viewer
+.vxd=vxdfile
+.wab=wab_auto_file
+.wav=WMP11.AssocFile.WAV
+.WAX=WMP11.AssocFile.WAX
+.wbcat=wbcatfile
+.wbk=Word.Backup.8
+.wcx=wcxfile
+.wdp=wdpfile
+.webpnp=webpnpFile
+.website=Microsoft.Website
+.wiz=Word.Wizard.8
+.wizhtml=accessthmltemplate
+.wll=Word.Addin.8
+.WM=WMP11.AssocFile.ASF
+.WMA=WMP11.AssocFile.WMA
+.WMD=WMP11.AssocFile.WMD
+.wmdb=WMP.WMDBFile
+.wmf=wmffile
+.WMS=WMP11.AssocFile.WMS
+.WMV=WMP11.AssocFile.WMV
+.WMX=WMP11.AssocFile.ASX
+.WMZ=WMP11.AssocFile.WMZ
+.WPL=WMP11.AssocFile.WPL
+.wsc=scriptletfile
+.WSF=WSFFile
+.WSH=WSHFile
+.wtx=txtfile
+.WVX=WMP11.AssocFile.WVX
+.xaml=Windows.XamlDocument
+.xbap=Windows.Xbap
+.xevgenxml=XEV.GenericApp
+.xht=xhtmlfile
+.xhtml=xhtmlfile
+.xla=Excel.Addin
+.xlam=Excel.AddInMacroEnabled
+.xld=Excel.Dialog
+.xlk=Excel.Backup
+.xll=Excel.XLL
+.xlm=Excel.Macrosheet
+.xls=Excel.Sheet.8
+.xlsb=Excel.SheetBinaryMacroEnabled.12
+.xlshtml=Excelhtmlfile
+.xlsm=Excel.SheetMacroEnabled.12
+.xlsmhtml=excelmhtmlfile
+.xlsx=Excel.Sheet.12
+.xlt=Excel.Template.8
+.xlthtml=Excelhtmltemplate
+.xltm=Excel.TemplateMacroEnabled
+.xltx=Excel.Template
+.xlw=Excel.Workspace
+.xlxml=Excelxmlss
+.xml=xmlfile
+.xps=Windows.XPSReachViewer
+.xrm-ms=MSSppLicenseFile
+.xsf=InfoPath.SolutionManifest.4
+.xsl=xslfile
+.xsn=InfoPath.Solution.4
+.xtp=XTPFile
+.xtp2=XTP2File
+.xxe=WinRAR
+.xz=WinRAR
+.z=WinRAR
+.ZFSendToTarget=CLSID\{888DCA60-FC0A-11CF-8F0F-00C04FD7D062}
+.zip=WinRAR.ZIP
+
+C:\Users\Nailatur Rahmadiah>Driverquery
+
+Module Name  Display Name           Driver Type   Link Date
+============ ====================== ============= ======================
+1394ohci     1394 OHCI Compliant Ho Kernel        7/16/2016 9:21:36 AM
+3ware        3ware                  Kernel        5/19/2015 5:28:03 AM
+ACPI         Microsoft ACPI Driver  Kernel        6/12/2018 7:38:48 AM
+AcpiDev      ACPI Devices driver    Kernel        7/16/2016 9:29:10 AM
+acpiex       Microsoft ACPIEx Drive Kernel        7/16/2016 9:28:23 AM
+acpipagr     ACPI Processor Aggrega Kernel        7/16/2016 9:29:00 AM
+AcpiPmi      ACPI Power Meter Drive Kernel        7/16/2016 9:19:44 AM
+acpitime     ACPI Wake Alarm Driver Kernel        7/16/2016 9:29:20 AM
+ADP80XX      ADP80XX                Kernel        4/10/2015 3:49:48 AM
+AFD          Ancillary Function Dri Kernel        2/13/2018 4:48:26 AM
+ahcache      Application Compatibil Kernel        10/15/2016 10:31:36 AM
+AmdK8        AMD K8 Processor Drive Kernel        4/28/2018 11:26:16 AM
+AmdPPM       AMD Processor Driver   Kernel        4/28/2018 11:26:16 AM
+amdsata      amdsata                Kernel        5/14/2015 7:14:52 PM
+amdsbs       amdsbs                 Kernel        12/12/2012 4:21:44 AM
+amdxata      amdxata                Kernel        5/1/2015 7:55:35 AM
+AppID        AppID Driver           Kernel        3/30/2018 10:36:34 AM
+applockerflt Smartlocker Filter Dri Kernel        7/16/2016 9:27:27 AM
+AppvStrm     AppvStrm               File System   9/15/2016 11:15:25 PM
+AppvVemgr    AppvVemgr              File System   4/28/2018 12:37:22 PM
+AppvVfs      AppvVfs                File System   4/28/2018 12:37:21 PM
+arcsas       Adaptec SAS/SATA-II RA Kernel        4/10/2015 2:12:07 AM
+AsyncMac     RAS Asynchronous Media Kernel        7/16/2016 9:29:00 AM
+atapi        IDE Channel            Kernel        7/16/2016 9:29:05 AM
+athr         Qualcomm Atheros Exten Kernel        1/28/2016 4:52:54 PM
+b06bdrv      QLogic Network Adapter Kernel        5/25/2016 2:03:08 PM
+BasicDisplay BasicDisplay           Kernel        3/28/2017 12:36:52 PM
+BasicRender  BasicRender            Kernel        3/6/2018 12:28:50 PM
+bcmfn        bcmfn Service          Kernel        6/8/2015 3:32:02 PM
+bcmfn2       bcmfn2 Service         Kernel        3/16/2014 5:07:36 PM
+Beep         Beep                   Kernel        7/16/2016 9:22:02 AM
+bowser       Browser Support Driver File System   11/2/2016 5:23:23 PM
+BthAvrcpTg   Bluetooth Audio/Video  Kernel        7/16/2016 9:18:28 AM
+BthHFEnum    Bluetooth Hands-Free A Kernel        7/16/2016 9:22:25 AM
+bthhfhid     Bluetooth Hands-Free C Kernel        7/16/2016 9:18:24 AM
+BTHMODEM     Bluetooth Modem Commun Kernel        7/16/2016 9:19:09 AM
+buttonconver Service for Portable D Kernel        7/16/2016 9:29:14 AM
+CapImg       HID driver for CapImg  Kernel        9/10/2016 8:21:43 PM
+cdfs         CD/DVD File System Rea File System   7/16/2016 9:10:38 AM
+cdrom        CD-ROM Driver          Kernel        1/11/2018 1:10:02 PM
+cht4iscsi    cht4iscsi              Kernel        4/20/2016 4:54:30 PM
+cht4vbd      Chelsio Virtual Bus Dr Kernel        4/15/2016 2:32:54 PM
+circlass     Consumer IR Devices    Kernel        7/16/2016 9:20:13 AM
+CLFS         Common Log (CLFS)      Kernel        4/28/2018 12:37:17 PM
+clreg        Virtual Registry for C Kernel        7/16/2016 9:27:04 AM
+CmBatt       Microsoft ACPI Control Kernel        7/16/2016 9:28:28 AM
+CNG          CNG                    Kernel        7/13/2018 11:09:01 AM
+cnghwassist  CNG Hardware Assist al Kernel        7/16/2016 9:27:44 AM
+CompositeBus Composite Bus Enumerat Kernel        7/16/2016 9:20:11 AM
+condrv       Console Driver         Kernel        7/16/2016 9:10:38 AM
+CSC          Offline Files Driver   Kernel        3/4/2017 1:19:05 PM
+dam          Desktop Activity Moder Kernel        3/4/2017 1:13:29 PM
+Dfsc         DFS Namespace Client D File System   4/28/2018 12:44:21 PM
+disk         Disk Driver            Kernel        8/8/2017 11:50:41 AM
+dmvsc        dmvsc                  Kernel        1/1/2018 11:48:24 AM
+drmkaud      Microsoft Trusted Audi Kernel        7/16/2016 9:28:35 AM
+DXGKrnl      LDDM Graphics Subsyste Kernel        4/28/2018 12:39:13 PM
+ebdrv        QLogic 10 Gigabit Ethe Kernel        5/25/2016 2:01:05 PM
+EhStorClass  Enhanced Storage Filte Kernel        7/16/2016 9:18:35 AM
+EhStorTcgDrv Microsoft driver for s Kernel        9/7/2016 11:46:37 AM
+ErrDev       Microsoft Hardware Err Kernel        7/16/2016 9:19:40 AM
+ETD          ELAN Input Device      Kernel        9/24/2015 8:05:48 PM
+exfat        exFAT File System Driv File System   7/16/2016 9:20:44 AM
+fastfat      FAT12/16/32 File Syste File System   11/11/2016 4:12:53 PM
+fdc          Floppy Disk Controller Kernel        7/16/2016 9:22:03 AM
+FileCrypt    FileCrypt              File System   7/16/2016 9:22:39 AM
+FileInfo     File Information FS Mi File System   7/16/2016 9:26:05 AM
+Filetrace    Filetrace              File System   7/16/2016 9:19:50 AM
+flpydisk     Floppy Disk Driver     Kernel        7/16/2016 9:19:19 AM
+FltMgr       FltMgr                 File System   7/16/2016 9:10:45 AM
+FsDepends    File System Dependency File System   1/1/2018 11:48:49 AM
+fvevol       BitLocker Drive Encryp Kernel        4/28/2018 11:33:00 AM
+gencounter   Microsoft Hyper-V Gene Kernel        1/1/2018 11:49:44 AM
+genericusbfn Generic USB Function C Kernel        7/16/2016 9:29:03 AM
+GPIOClx0101  Microsoft GPIO Class E Kernel        7/16/2016 9:25:17 AM
+GpuEnergyDrv GPU Energy Driver      Kernel        7/16/2016 9:28:09 AM
+HdAudAddServ Microsoft 1.1 UAA Func Kernel        7/16/2016 9:24:20 AM
+HDAudBus     Microsoft UAA Bus Driv Kernel        7/16/2016 9:27:11 AM
+HidBatt      HID UPS Battery Driver Kernel        7/16/2016 9:20:30 AM
+HidBth       Microsoft Bluetooth HI Kernel        9/15/2017 5:34:21 AM
+hidi2c       Microsoft I2C HID Mini Kernel        7/16/2016 9:25:28 AM
+hidinterrupt Common Driver for HID  Kernel        7/16/2016 9:29:21 AM
+HidIr        Microsoft Infrared HID Kernel        7/16/2016 9:19:20 AM
+HidUsb       Microsoft HID Class Dr Kernel        8/6/2016 10:47:49 AM
+HpSAMD       HpSAMD                 Kernel        3/27/2013 4:36:54 AM
+HTTP         HTTP Service           Kernel        6/26/2018 10:08:09 AM
+hvservice    Hypervisor/Virtual Mac Kernel        8/6/2016 10:43:48 AM
+hwpolicy     Hardware Policy Driver Kernel        7/16/2016 9:10:41 AM
+hyperkbd     hyperkbd               Kernel        1/1/2018 11:50:04 AM
+i8042prt     PS/2 Keyboard and Mous Kernel        7/16/2016 9:26:25 AM
+iagpio       Intel Serial IO GPIO C Kernel        2/18/2016 2:35:09 PM
+iai2c        Intel(R) Serial IO I2C Kernel        9/22/2015 1:53:03 PM
+iaLPSS2i_GPI Intel(R) Serial IO GPI Kernel        3/3/2016 9:06:59 AM
+iaLPSS2i_I2C Intel(R) Serial IO I2C Kernel        3/3/2016 9:06:42 AM
+iaLPSSi_GPIO Intel(R) Serial IO GPI Kernel        2/2/2015 4:00:09 PM
+iaLPSSi_I2C  Intel(R) Serial IO I2C Kernel        2/24/2015 10:52:07 PM
+iaStorAV     Intel(R) SATA RAID Con Kernel        2/19/2015 7:08:39 PM
+iaStorV      Intel RAID Controller  Kernel        4/12/2011 1:48:16 AM
+ibbus        Mellanox InfiniBand Bu Kernel        4/10/2016 8:46:21 PM
+igfx         igfx                   Kernel        7/11/2015 7:37:09 AM
+IndirectKmd  Indirect Displays Kern Kernel        7/16/2016 9:27:35 AM
+intaud_WaveE Intel WiDi Audio Devic Kernel        6/9/2015 5:12:39 AM
+intelide     intelide               Kernel        7/16/2016 9:29:13 AM
+intelpep     Intel(R) Power Engine  Kernel        7/16/2016 9:18:27 AM
+intelppm     Intel Processor Driver Kernel        4/28/2018 11:26:18 AM
+iorate       iorate                 Kernel        11/2/2016 5:12:31 PM
+IpFilterDriv IP Traffic Filter Driv Kernel        7/16/2016 9:27:24 AM
+IPMIDRV      IPMIDRV                Kernel        3/4/2017 1:20:37 PM
+IPNAT        IP Network Address Tra Kernel        7/16/2016 9:26:37 AM
+irda         irda                   Kernel        7/16/2016 9:28:26 AM
+IRENUM       IR Bus Enumerator      Kernel        7/16/2016 9:27:49 AM
+isapnp       isapnp                 Kernel        7/16/2016 9:27:57 AM
+iScsiPrt     iScsiPort Driver       Kernel        4/3/2018 10:43:58 AM
+iwdbus       IWD Bus Enumerator     Kernel        6/9/2015 5:12:39 AM
+kbdclass     Keyboard Class Driver  Kernel        7/16/2016 9:26:27 AM
+kbdhid       Keyboard HID Driver    Kernel        9/15/2016 11:43:23 PM
+kdnic        Microsoft Kernel Debug Kernel        7/16/2016 9:28:28 AM
+KSecDD       KSecDD                 Kernel        6/26/2018 10:18:33 AM
+KSecPkg      KSecPkg                Kernel        7/13/2018 11:16:45 AM
+ksthunk      Kernel Streaming Thunk Kernel        7/16/2016 9:28:56 AM
+lltdio       Link-Layer Topology Di Kernel        7/16/2016 9:27:11 AM
+LSI_SAS      LSI_SAS                Kernel        3/26/2015 2:36:48 AM
+LSI_SAS2i    LSI_SAS2i              Kernel        3/29/2016 1:49:34 AM
+LSI_SAS3i    LSI_SAS3i              Kernel        3/29/2016 1:49:51 AM
+LSI_SSS      LSI_SSS                Kernel        3/16/2013 6:39:38 AM
+luafv        UAC File Virtualizatio File System   11/2/2017 5:09:40 AM
+megasas      megasas                Kernel        3/5/2015 9:36:29 AM
+megasas2i    megasas2i              Kernel        7/23/2016 4:36:46 AM
+megasr       megasr                 Kernel        6/4/2013 5:02:39 AM
+mlx4_bus     Mellanox ConnectX Bus  Kernel        4/10/2016 8:49:39 PM
+MMCSS        Multimedia Class Sched Kernel        7/16/2016 9:20:45 AM
+Modem        Modem                  Kernel        11/11/2016 4:26:20 PM
+monitor      Microsoft Monitor Clas Kernel        7/16/2016 9:28:26 AM
+mouclass     Mouse Class Driver     Kernel        7/16/2016 9:26:40 AM
+mouhid       Mouse HID Driver       Kernel        7/16/2016 9:27:35 AM
+mountmgr     Mount Point Manager    Kernel        7/16/2016 9:10:42 AM
+mpsdrv       Windows Firewall Autho Kernel        6/26/2018 10:17:24 AM
+MRxDAV       WebDav Client Redirect File System   10/5/2016 4:20:40 PM
+mrxsmb       SMB MiniRedirector Wra File System   2/13/2018 4:54:45 AM
+mrxsmb10     SMB 1.x MiniRedirector File System   9/18/2017 9:26:03 AM
+mrxsmb20     SMB 2.0 MiniRedirector File System   4/28/2018 12:54:34 PM
+MsBridge     Microsoft MAC Bridge   Kernel        7/7/2017 1:49:39 PM
+Msfs         Msfs                   File System   7/16/2016 9:10:38 AM
+msgpiowin32  Common Driver for Butt Kernel        7/16/2016 9:19:13 AM
+mshidkmdf    Pass-through HID to KM Kernel        7/16/2016 9:27:13 AM
+mshidumdf    Pass-through HID to UM Kernel        7/16/2016 9:26:59 AM
+msisadrv     msisadrv               Kernel        7/16/2016 9:28:51 AM
+MSKSSRV      Microsoft Streaming Se Kernel        3/4/2017 1:36:58 PM
+MsLldp       Microsoft Link-Layer D Kernel        7/16/2016 9:28:24 AM
+MSPCLOCK     Microsoft Streaming Cl Kernel        7/16/2016 9:29:26 AM
+MSPQM        Microsoft Streaming Qu Kernel        7/16/2016 9:29:04 AM
+MsRPC        MsRPC                  Kernel        6/8/2018 12:43:48 PM
+MsSecFlt     Microsoft Security Eve File System   7/16/2016 9:20:31 AM
+mssmbios     Microsoft System Manag Kernel        7/16/2016 9:26:00 AM
+MSTEE        Microsoft Streaming Te Kernel        7/16/2016 9:29:28 AM
+MTConfig     Microsoft Input Config Kernel        7/16/2016 9:21:42 AM
+Mup          Mup                    File System   6/21/2017 1:34:04 PM
+mvumis       mvumis                 Kernel        5/24/2014 3:39:04 AM
+NativeWifiP  NativeWiFi Filter      Kernel        9/18/2017 9:28:39 AM
+ndfltr       NetworkDirect Service  Kernel        4/10/2016 8:46:09 PM
+NDIS         NDIS System Driver     Kernel        10/9/2017 8:41:21 AM
+NdisCap      Microsoft NDIS Capture Kernel        7/16/2016 9:27:14 AM
+NdisImPlatfo Microsoft Network Adap Kernel        7/16/2016 9:27:11 AM
+NdisTapi     Remote Access NDIS TAP Kernel        7/16/2016 9:28:48 AM
+Ndisuio      NDIS Usermode I/O Prot Kernel        7/16/2016 9:26:32 AM
+NdisVirtualB Microsoft Virtual Netw Kernel        7/16/2016 9:26:32 AM
+NdisWan      Remote Access NDIS WAN Kernel        7/16/2016 9:25:29 AM
+ndiswanlegac Remote Access LEGACY N Kernel        7/16/2016 9:25:29 AM
+ndproxy      @%SystemRoot%\system32 Kernel        7/16/2016 9:28:38 AM
+Ndu          Windows Network Data U Kernel        7/16/2016 9:26:12 AM
+NetAdapterCx Network Adapter Wdf Cl Kernel        7/16/2016 9:28:31 AM
+NetBIOS      NetBIOS Interface      File System   7/16/2016 9:27:18 AM
+NetBT        NetBT                  Kernel        9/7/2017 12:18:00 PM
+Npfs         Npfs                   File System   9/15/2017 5:16:52 AM
+npsvctrig    Named pipe service tri Kernel        7/16/2016 9:28:33 AM
+nsiproxy     NSI Proxy Service Driv Kernel        6/12/2018 7:48:06 AM
+NTFS         NTFS                   File System   6/12/2018 7:40:12 AM
+Null         Null                   Kernel        7/16/2016 9:10:37 AM
+nvlddmkm     nvlddmkm               Kernel        12/29/2016 7:28:42 PM
+nvpciflt     nvpciflt               Kernel        12/29/2016 7:13:19 PM
+nvraid       nvraid                 Kernel        4/22/2014 1:28:42 AM
+nvstor       nvstor                 Kernel        4/22/2014 1:34:03 AM
+Parport      Parallel port driver   Kernel        7/16/2016 9:26:54 AM
+partmgr      Partition driver       Kernel        4/28/2018 12:37:14 PM
+pci          PCI Bus Driver         Kernel        12/14/2016 11:36:59 AM
+pciide       pciide                 Kernel        7/16/2016 9:29:21 AM
+pcmcia       pcmcia                 Kernel        7/16/2016 9:19:51 AM
+pcw          Performance Counters f Kernel        7/16/2016 9:10:37 AM
+pdc          pdc                    Kernel        7/7/2017 1:20:24 PM
+PEAUTH       PEAUTH                 Kernel        7/16/2016 9:24:39 AM
+percsas2i    percsas2i              Kernel        3/15/2016 7:50:11 AM
+percsas3i    percsas3i              Kernel        3/5/2016 4:22:10 AM
+PptpMiniport WAN Miniport (PPTP)    Kernel        1/11/2018 1:25:40 PM
+Processor    Processor Driver       Kernel        4/28/2018 11:26:16 AM
+Psched       QoS Packet Scheduler   Kernel        6/12/2018 7:46:49 AM
+QWAVEdrv     QWAVE driver           Kernel        7/16/2016 9:28:46 AM
+RasAcd       Remote Access Auto Con Kernel        7/16/2016 9:29:11 AM
+RasAgileVpn  WAN Miniport (IKEv2)   Kernel        7/16/2016 9:27:00 AM
+Rasl2tp      WAN Miniport (L2TP)    Kernel        7/16/2016 9:27:35 AM
+RasPppoe     Remote Access PPPOE Dr Kernel        4/28/2017 7:03:40 AM
+RasSstp      WAN Miniport (SSTP)    Kernel        7/16/2016 9:27:11 AM
+rdbss        Redirected Buffering S File System   6/12/2018 7:49:25 AM
+rdpbus       Remote Desktop Device  Kernel        7/16/2016 9:11:15 AM
+RDPDR        Remote Desktop Device  Kernel        6/12/2018 7:39:29 AM
+RdpVideoMini Remote Desktop Video M Kernel        7/16/2016 9:11:10 AM
+rdyboost     ReadyBoost             Kernel        7/16/2016 9:25:16 AM
+ReFSv1       ReFSv1                 File System   6/8/2018 12:37:15 PM
+RSBASTOR     Realtek PCIE CardReade Kernel        5/15/2015 3:02:50 PM
+rspndr       Link-Layer Topology Di Kernel        7/16/2016 9:27:29 AM
+rt640x64     Realtek RT640 NT Drive Kernel        1/21/2016 3:17:40 PM
+s3cap        s3cap                  Kernel        1/1/2018 11:50:23 AM
+sbp2port     SBP-2 Transport/Protoc Kernel        7/16/2016 9:10:38 AM
+scfilter     Smart card PnP Class F Kernel        7/16/2016 9:27:15 AM
+scmbus       Microsoft Storage Clas Kernel        6/21/2017 2:01:55 PM
+scmdisk0101  Microsoft NVDIMM-N dis Kernel        7/12/2017 12:24:28 PM
+sdbus        sdbus                  Kernel        3/6/2018 12:20:55 PM
+sdstor       SD Storage Port Driver Kernel        7/12/2017 12:13:28 PM
+SerCx        Serial UART Support Li Kernel        7/16/2016 9:26:18 AM
+SerCx2       Serial UART Support Li Kernel        7/16/2016 9:27:10 AM
+Serenum      Serenum Filter Driver  Kernel        7/16/2016 9:29:05 AM
+Serial       Serial port driver     Kernel        7/16/2016 9:28:29 AM
+sermouse     Serial Mouse Driver    Kernel        7/16/2016 9:28:00 AM
+sfloppy      High-Capacity Floppy D Kernel        7/16/2016 9:17:13 AM
+SiSRaid2     SiSRaid2               Kernel        9/25/2008 1:28:20 AM
+SiSRaid4     SiSRaid4               Kernel        10/2/2008 4:56:04 AM
+spaceport    Storage Spaces Driver  Kernel        4/28/2018 12:48:34 PM
+SpbCx        Simple Peripheral Bus  Kernel        7/16/2016 9:25:02 AM
+srv          Server SMB 1.xxx Drive File System   1/1/2018 11:47:19 AM
+srv2         Server SMB 2.xxx Drive File System   4/28/2018 12:50:41 PM
+srvnet       srvnet                 File System   6/12/2018 7:52:45 AM
+stexstor     stexstor               Kernel        11/27/2012 7:02:51 AM
+storahci     Microsoft Standard SAT Kernel        4/28/2018 12:45:49 PM
+storflt      Microsoft Hyper-V Stor Kernel        1/1/2018 11:49:23 AM
+stornvme     Microsoft Standard NVM Kernel        4/28/2018 12:46:03 PM
+storqosflt   Storage QoS Filter Dri File System   3/6/2018 12:26:53 PM
+storufs      Microsoft Universal Fl Kernel        7/16/2016 9:19:08 AM
+storvsc      storvsc                Kernel        4/28/2018 12:51:16 PM
+swenum       Software Bus Driver    Kernel        7/16/2016 9:28:55 AM
+Synth3dVsc   Synth3dVsc             Kernel        1/1/2018 11:48:39 AM
+Tcpip        TCP/IP Protocol Driver Kernel        7/13/2018 11:04:30 AM
+Tcpip6       @todo.dll,-100;Microso Kernel        7/13/2018 11:04:30 AM
+tcpipreg     TCP/IP Registry Compat Kernel        6/12/2018 7:46:27 AM
+tdx          NetIO Legacy TDI Suppo Kernel        6/12/2018 7:48:08 AM
+terminpt     Microsoft Remote Deskt Kernel        7/16/2016 9:11:11 AM
+TPM          TPM                    Kernel        2/13/2018 4:49:33 AM
+tsusbflt     Remote Desktop USB Hub Kernel        7/16/2016 9:11:21 AM
+TsUsbGD      Remote Desktop Generic Kernel        7/16/2016 9:11:14 AM
+tsusbhub     Remote Desktop USB Hub Kernel        9/15/2017 5:17:40 AM
+tunnel       Microsoft Tunnel Minip Kernel        7/16/2016 9:26:20 AM
+UASPStor     USB Attached SCSI (UAS Kernel        7/16/2016 9:18:15 AM
+UcmCx0101    USB Connector Manager  Kernel        7/16/2016 9:29:03 AM
+UcmTcpciCx01 UCM-TCPCI KMDF Class E Kernel        7/16/2016 9:28:38 AM
+UcmUcsi      USB Connector Manager  Kernel        7/16/2016 9:28:31 AM
+Ucx01000     USB Host Support Libra Kernel        6/12/2018 7:46:05 AM
+UdeCx        USB Device Emulation S Kernel        7/16/2016 9:28:48 AM
+udfs         udfs                   File System   7/16/2016 9:18:00 AM
+UEFI         Microsoft UEFI Driver  Kernel        6/8/2018 12:37:01 PM
+UevAgentDriv UevAgentDriver         File System   7/16/2016 9:30:36 AM
+Ufx01000     USB Function Class Ext Kernel        7/16/2016 9:27:04 AM
+UfxChipidea  USB Chipidea Controlle Kernel        7/16/2016 9:28:15 AM
+ufxsynopsys  USB Synopsys Controlle Kernel        7/16/2016 9:28:15 AM
+umbus        UMBus Enumerator Drive Kernel        7/16/2016 9:22:33 AM
+UmPass       Microsoft UMPass Drive Kernel        7/16/2016 9:29:07 AM
+UrsChipidea  Chipidea USB Role-Swit Kernel        7/16/2016 9:28:59 AM
+UrsCx01000   USB Role-Switch Suppor Kernel        7/16/2016 9:28:56 AM
+UrsSynopsys  Synopsys USB Role-Swit Kernel        7/16/2016 9:29:25 AM
+usbccgp      Microsoft USB Generic  Kernel        10/9/2017 8:59:12 AM
+usbcir       eHome Infrared Receive Kernel        7/16/2016 9:18:46 AM
+usbehci      Microsoft USB 2.0 Enha Kernel        7/16/2016 9:23:07 AM
+usbhub       Microsoft USB Standard Kernel        10/9/2017 8:47:20 AM
+USBHUB3      SuperSpeed Hub         Kernel        7/16/2016 9:18:54 AM
+usbohci      Microsoft USB Open Hos Kernel        7/16/2016 9:29:09 AM
+usbprint     Microsoft USB PRINTER  Kernel        7/16/2016 9:29:05 AM
+usbser       Microsoft USB Serial D Kernel        7/16/2016 9:28:49 AM
+USBSTOR      USB Mass Storage Drive Kernel        6/21/2017 1:43:14 PM
+usbuhci      Microsoft USB Universa Kernel        7/16/2016 9:28:50 AM
+usbvideo     USB Video Device (WDM) Kernel        8/6/2016 10:44:20 AM
+USBXHCI      USB xHCI Compliant Hos Kernel        10/9/2017 8:47:59 AM
+vdrvroot     Microsoft Virtual Driv Kernel        1/1/2018 11:47:14 AM
+VerifierExt  VerifierExt            Kernel        7/16/2016 9:10:42 AM
+vhdmp        vhdmp                  Kernel        6/8/2018 12:43:10 PM
+vhf          Virtual HID Framework  Kernel        7/16/2016 9:27:49 AM
+vmbus        Virtual Machine Bus    Kernel        1/1/2018 11:47:55 AM
+VMBusHID     VMBusHID               Kernel        1/1/2018 11:49:59 AM
+vmgid        Microsoft Hyper-V Gues Kernel        1/1/2018 11:51:18 AM
+volmgr       Volume Manager Driver  Kernel        4/28/2018 12:37:12 PM
+volmgrx      Dynamic Volume Manager Kernel        7/16/2016 9:10:45 AM
+volsnap      Volume Shadow Copy dri Kernel        10/9/2017 8:40:48 AM
+volume       Volume driver          Kernel        7/16/2016 9:10:37 AM
+vpci         Microsoft Hyper-V Virt Kernel        1/1/2018 11:49:46 AM
+vsmraid      vsmraid                Kernel        4/23/2014 2:21:41 AM
+VSTXRAID     VIA StorX Storage RAID Kernel        1/22/2013 2:00:28 AM
+vwifibus     Virtual Wireless Bus D Kernel        7/16/2016 9:27:29 AM
+vwififlt     Virtual WiFi Filter Dr Kernel        7/16/2016 9:28:07 AM
+vwifimp      Virtual WiFi Miniport  Kernel        4/28/2017 7:02:38 AM
+WacomPen     Wacom Serial Pen HID D Kernel        7/16/2016 9:19:26 AM
+wanarp       Remote Access IP ARP D Kernel        7/16/2016 9:28:56 AM
+wanarpv6     Remote Access IPv6 ARP Kernel        7/16/2016 9:28:56 AM
+wcifs        Windows Container Isol File System   3/2/2018 3:23:20 PM
+wcnfs        Windows Container Name File System   3/6/2018 12:29:06 PM
+WdBoot       Windows Defender Boot  Kernel        7/16/2016 9:28:51 AM
+Wdf01000     Kernel Mode Driver Fra Kernel        7/16/2016 9:13:12 AM
+WdFilter     Windows Defender Mini- File System   7/16/2016 9:25:21 AM
+wdiwifi      WDI Driver Framework   Kernel        9/18/2017 9:27:10 AM
+WdNisDrv     Windows Defender Netwo Kernel        7/16/2016 9:25:56 AM
+WFPLWFS      Microsoft Windows Filt Kernel        2/13/2018 4:51:30 AM
+WIMMount     WIMMount               File System   7/16/2016 9:24:25 AM
+WindowsTrust Windows Trusted Execut Kernel        7/16/2016 9:27:05 AM
+WindowsTrust Microsoft Windows Trus Kernel        7/16/2016 9:27:05 AM
+WinMad       WinMad Service         Kernel        4/10/2016 8:46:08 PM
+WINUSB       WinUsb Driver          Kernel        7/16/2016 9:28:32 AM
+WinVerbs     WinVerbs Service       Kernel        4/10/2016 8:46:10 PM
+WmiAcpi      Microsoft Windows Mana Kernel        7/16/2016 9:18:19 AM
+Wof          Windows Overlay File S File System   10/9/2017 8:58:20 AM
+WpdUpFltr    WPD Upper Class Filter Kernel        7/16/2016 9:27:41 AM
+ws2ifsl      Winsock IFS Driver     Kernel        7/16/2016 9:27:26 AM
+WudfPf       User Mode Driver Frame Kernel        7/16/2016 9:26:10 AM
+WUDFRd       WUDFRd                 Kernel        7/16/2016 9:25:31 AM
+WUDFWpdFs    WUDFWpdFs              Kernel        7/16/2016 9:25:31 AM
+xboxgip      Xbox Game Input Protoc Kernel        3/4/2017 1:34:51 PM
+xinputhid    XINPUT HID Filter Driv Kernel        8/20/2016 12:20:50 PM
+
+C:\Users\Nailatur Rahmadiah>Date
+The current date is: Fri 08/19/2022
+Enter the new date: (mm-dd-yy)
+C:\Users\Nailatur Rahmadiah>Ver
+
+Microsoft Windows [Version 10.0.14393]
+
+C:\Users\Nailatur Rahmadiah>Ftype
+Access=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+Access.ACCDAExtension.15=C:\PROGRA~2\MICROS~1\Office15\MSACCESS.EXE /NOSTARTUP "%1"
+Access.ACCDCFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1"
+Access.ACCDEFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.ACCDRFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /RUNTIME "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.ACCDTFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1"
+Access.ADEFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.Application.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.BlankDatabaseTemplate.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /NEWDB "%1"
+Access.BlankProjectTemplate.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /NEWDB "%1"
+Access.Extension.15=C:\PROGRA~2\MICROS~1\Office15\MSACCESS.EXE /NOSTARTUP "%1"
+Access.MDBFile="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.MDEFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.Project.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.Shortcut.DataAccessPage.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenDataAccessPage "%1"]
+Access.Shortcut.Diagram.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenDiagram "%1"]
+Access.Shortcut.Form.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenForm "%1"]
+Access.Shortcut.Function.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /SHELLSYSTEM [OpenFunction "%1"]
+Access.Shortcut.Macro.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [ShellOpenMacro "%1"]
+Access.Shortcut.Module.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenModule "%1"]
+Access.Shortcut.Query.1=C:\PROGRA~2\MICROS~1\Office15\MSACCESS.EXE /NOSTARTUP /SHELLSYSTEM [OpenQuery "%1"]
+Access.Shortcut.Report.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenReport "%1", 2]
+Access.Shortcut.StoredProcedure.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenStoredProcedure "%1"]
+Access.Shortcut.Table.1=C:\PROGRA~2\MICROS~1\Office15\MSACCESS.EXE /NOSTARTUP /SHELLSYSTEM [OpenTable "%1"]
+Access.Shortcut.View.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenView "%1"]
+Access.UriLink.15=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+Access.WebApplicationReference.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.WizardDataFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1"
+Access.WizardUserDataFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1"
+Access.Workgroup.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1"
+accesshtmlfile="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE"
+accessthmltemplate="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE"
+Application.Manifest="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\dfshim.dll",ShOpenVerbApplication %1
+Application.Reference="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\dfshim.dll",ShOpenVerbShortcut %1|%2
+batfile="%1" %*
+bootstrap.vsto.1=rundll32.exe "C:\Program Files (x86)\Common Files\Microsoft Shared\VSTO\vstoee.dll",InstallVstoSolution %1
+brmFile="PrintBrmUI.exe" /import /file:"%1"
+CABFolder=%SystemRoot%\Explorer.exe /idlist,%I,%L
+calculator=C:\Windows\System32\win32calc.exe
+CATFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenCAT %1
+CERFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenCER %1
+CertificateStoreFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenSTR %1
+certificate_wab_auto_file="%ProgramFiles%\Windows Mail\wab.exe" /certificate "%1"
+chm.file="%SystemRoot%\hh.exe" %1
+ChromeHTML="C:\Program Files\Google\Chrome\Application\chrome.exe" --single-argument %1
+cmdfile="%1" %*
+comfile="%1" %*
+CompressedFolder=%SystemRoot%\Explorer.exe /idlist,%I,%L
+contact_wab_auto_file="%ProgramFiles%\Windows Mail\wab.exe" /contact "%1"
+CRLFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenCRL %1
+desktopthemepackfile=%SystemRoot%\system32\rundll32.exe %SystemRoot%\system32\themecpl.dll,OpenThemeAction %1
+Diagnostic.Cabinet=%SystemRoot%\system32\msdt.exe /cab "%1"
+Diagnostic.Config=%SystemRoot%\system32\msdt.exe /path "%1"
+Diagnostic.Document=%SystemRoot%\system32\msdt.exe /path "%1"
+Diagnostic.Perfmon.Config=%SystemRoot%\system32\perfmon /sys /load "%1"
+Diagnostic.Perfmon.Document=%SystemRoot%\system32\perfmon /sys /open "%1"
+Diagnostic.Resmon.Config=%SystemRoot%\system32\perfmon /res /load "%1"
+DLNA-PLAYSINGLE="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" "%L"
+docxfile="%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE" "%1"
+dqyfile=C:\PROGRA~2\MICROS~1\Office15\EXCEL.EXE
+emffile="%systemroot%\system32\mspaint.exe" "%1"
+evtfile=%SystemRoot%\system32\eventvwr.exe /l:"%1"
+evtxfile=%SystemRoot%\system32\eventvwr.exe /l:"%1"
+Excel=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+Excel.Addin="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.AddInMacroEnabled="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Backup="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Chart=C:\PROGRA~2\MICROS~1\Office15\EXCEL.EXE /dde
+Excel.CSV="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Macrosheet="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.OpenDocumentSpreadsheet.12="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Sheet.12="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Sheet.8="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.SheetBinaryMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.SheetMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.SLK="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Template="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Template.8="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.TemplateMacroEnabled="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.UriLink.15=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+Excel.Workspace="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.XLL="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excelhtmlfile="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE"
+Excelhtmltemplate="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE"
+exefile="%1" %*
+Explorer.AssocActionId.BurnSelection=%SystemRoot%\explorer.exe
+Explorer.AssocActionId.EraseDisc=%SystemRoot%\explorer.exe
+Explorer.AssocActionId.ZipSelection=%SystemRoot%\explorer.exe
+Explorer.AssocProtocol.search-ms=%SystemRoot%\Explorer.exe /separate,/idlist,%I,%L
+FaxCover.Document=C:\Windows\System32\fxscover.exe "%1"
+feed="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+feeds="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+Folder=%SystemRoot%\Explorer.exe
+ftp="C:\Program Files\Internet Explorer\iexplore.exe" %1
+giffile="C:\Program Files\Internet Explorer\iexplore.exe" %1
+Groove.SPFS.OneNoteStub="C:\Program Files (x86)\Microsoft Office\Office15\GROOVE.EXE" /OneNoteStub: "%1"
+group_wab_auto_file="%ProgramFiles%\Windows Mail\wab.exe" /Group "%1"
+grvOpen=C:\PROGRA~2\MICROS~1\Office15\GROOVE.EXE /TakeOffline: "%1"
+hlpfile=%SystemRoot%\winhlp32.exe %1
+htafile=C:\Windows\SysWOW64\mshta.exe "%1" {1E460BD7-F1C3-4B2E-88BF-4E770A288AF5}%U{1E460BD7-F1C3-4B2E-88BF-4E770A288AF5} %*
+htmlfile="C:\Program Files\Internet Explorer\iexplore.exe" %1
+http="C:\Program Files\Internet Explorer\iexplore.exe" %1
+https="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.AssocFile.HTM="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.AssocFile.MHT="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.AssocFile.PARTIAL="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.AssocFile.SVG="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.AssocFile.URL="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\ieframe.dll",OpenURL %l
+IE.AssocFile.WEBSITE="C:\Program Files\Internet Explorer\iexplore.exe" -w "%l" %*
+IE.AssocFile.XHT="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.FTP="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.HTTP="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.HTTPS="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IMEDictionaryCompiler="%WINDIR%\system32\IME\SHARED\imewdbld.exe" "%1" %*
+imesxfile="%WINDIR%\system32\IME\SHARED\imesearch.exe" "%1"
+inffile=%SystemRoot%\system32\NOTEPAD.EXE %1
+InfoPath=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+InfoPath.Document.4="C:\Program Files (x86)\Microsoft Office\Office15\INFOPATH.EXE" "%1"
+InfoPath.Solution.4="C:\Program Files (x86)\Microsoft Office\Office15\INFOPATH.EXE" "%1"
+InfoPath.SolutionManifest.4="C:\Program Files (x86)\Microsoft Office\Office15\INFOPATH.EXE" "%1"
+inifile=%SystemRoot%\system32\NOTEPAD.EXE %1
+Intel.GraphicsControlPanel.igp.1=GfxUIEx.exe %1
+InternetShortcut="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\ieframe.dll",OpenURL %l
+iqyfile=C:\PROGRA~2\MICROS~1\Office15\EXCEL.EXE /dde
+JSEFile=C:\Windows\System32\WScript.exe "%1" %*
+JSFile=C:\Windows\System32\WScript.exe "%1" %*
+LDAP="%ProgramFiles%\Windows Mail\wab.exe" "/ldap:%1"
+Lync15=C:\PROGRA~2\MICROS~1\Office15\lync.exe "%1"
+Lync15classic=C:\PROGRA~2\MICROS~1\Office15\lync.exe "%1"
+MacromediaFlashPaper.MacromediaFlashPaper="%ProgramFiles%\Internet Explorer\iexplore.exe" "%1"
+mailto="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" -c IPM.Note /mailto "%1"
+mhtmlfile="C:\Program Files\Internet Explorer\iexplore.exe" %1
+Microsoft.Lync.15ClassicJoin.1=C:\PROGRA~2\MICROS~1\Office15\lync.exe "%1"
+Microsoft.Lync.15Join.1=C:\PROGRA~2\MICROS~1\Office15\lync.exe "%1"
+Microsoft.Lync.15TelProtocol.1=C:\PROGRA~2\MICROS~1\Office15\lync.exe "%1"
+Microsoft.PowerShellConsole.1="C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -p "%1"
+Microsoft.PowerShellData.1="C:\Windows\System32\notepad.exe" "%1"
+Microsoft.PowerShellModule.1="C:\Windows\System32\notepad.exe" "%1"
+Microsoft.PowerShellScript.1="C:\Windows\System32\notepad.exe" "%1"
+Microsoft.ProvTool.Provisioning.1="%SystemRoot%\System32\provtool.exe" "%1"
+Microsoft.System.Update.1="%systemroot%\system32\wusa.exe" "%1" %*
+Microsoft.Website="C:\Program Files\Internet Explorer\iexplore.exe" -w "%l" %*
+Microsoft.Workfolders=C:\Windows\System32\control.exe /name Microsoft.WorkFolders
+MMS="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" "%L"
+ms-access=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+ms-availablenetworks="%SystemRoot%\system32\LaunchWinApp.exe" "%1"
+ms-excel=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+ms-infopath=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+ms-powerpoint=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+ms-publisher=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+ms-settings-connectabledevices="%SystemRoot%\system32\LaunchWinApp.exe" "%1"
+ms-settings-displays-topology="%SystemRoot%\system32\LaunchWinApp.exe" "%1"
+ms-word=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+mscfile=%SystemRoot%\system32\mmc.exe "%1" %*
+MSDASC=Rundll32.exe "%CommonProgramFiles%\System\OLE DB\oledb32.dll",OpenDSLFile %1
+Msi.Package="%SystemRoot%\System32\msiexec.exe" /i "%1" %*
+Msi.Patch="%SystemRoot%\System32\msiexec.exe" /p "%1" %*
+MSInfoFile=%SystemRoot%\system32\msinfo32.exe "%1"
+MSSppLicenseFile="iexplore.exe" "%1"
+MSStorageSense=explorer ms-settings:storagesense
+msstylesfile=%SystemRoot%\system32\rundll32.exe %SystemRoot%\system32\shell32.dll,Control_RunDLL %SystemRoot%\system32\desk.cpl desk,@Appearance /Action:OpenMSTheme /file:"%1"
+odtfile="%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE" "%1"
+OfficeListShortcut="C:\Program Files (x86)\Microsoft Office\Office15\MSPUB.EXE" %1
+OfficeTheme.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+oms=rundll32.exe C:\PROGRA~2\MICROS~1\Office15\OMSMAIN.DLL, OmsProtocolHandler %1
+OneNote="C:\PROGRA~2\MICROS~1\Office15\ONENOTE.EXE" /hyperlink "%1"
+OneNote.Folder.1="C:\PROGRA~2\MICROS~1\Office15\ONENOTE.EXE" "%1"
+OneNote.Notebook.1="C:\PROGRA~2\MICROS~1\Office15\ONENOTE.EXE" "%1"
+OneNote.Package="C:\Program Files (x86)\Microsoft Office\Office15\ONENOTE.EXE" "%1"
+OneNote.Section.1="C:\Program Files (x86)\Microsoft Office\Office15\ONENOTE.EXE" "%1"
+OneNote.TableOfContents="C:\Program Files (x86)\Microsoft Office\Office15\ONENOTE.EXE" /navigate "%1"
+OneNote.TableOfContents.12="C:\Program Files (x86)\Microsoft Office\Office15\ONENOTE.EXE" /navigate "%1"
+OneNote.URL.15="C:\PROGRA~2\MICROS~1\Office15\ONENOTE.EXE" /hyperlink "%1"
+OneNoteDesktop="C:\PROGRA~2\MICROS~1\Office15\ONENOTE.EXE" /hyperlink "%1"
+OneNoteDesktop.URL.15="C:\PROGRA~2\MICROS~1\Office15\ONENOTE.EXE" /hyperlink "%1"
+opensearchdescription=%SystemRoot%\explorer.exe
+Outlook.File.eml.15=C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE /eml "%1"
+Outlook.File.hol.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /hol "%1"
+Outlook.File.ics.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /ical "%1"
+Outlook.File.msg.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /f "%1"
+Outlook.File.oft.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /t "%1"
+Outlook.File.pst.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /pst "%1"
+Outlook.File.vcf.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /v "%1"
+Outlook.File.vcs.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /vcal "%1"
+Outlook.URL.feed.15="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+Outlook.URL.mailto.15="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" -c IPM.Note /mailto "%1"
+Outlook.URL.stssync.15="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+Outlook.URL.webcal.15="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+P7RFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenP7R %1
+P7SFile=%SystemRoot%\system32\\rundll32.exe cryptext.dll,CryptExtOpenPKCS7 %1
+pbkfile=%SystemRoot%\system32\rasphone.exe -f "%1"
+PerfFile=%SystemRoot%\system32\mmc.exe %systemroot%\system32\perfmon.msc /F "%1"
+PFXFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenPFX %1
+PhotoViewer.FileAssoc.Tiff=%SystemRoot%\System32\rundll32.exe "%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll", ImageView_Fullscreen %1
+piffile="%1" %*
+PowerPoint=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+PowerPoint.Addin.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.Addin.8="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1"
+PowerPoint.OpenDocumentPresentation.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.Show.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.Show.8="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.ShowMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.Slide.12=C:\PROGRA~2\MICROS~1\Office15\POWERPNT.EXE "%1" /ou "%u"
+PowerPoint.Slide.8=C:\PROGRA~2\MICROS~1\Office15\POWERPNT.EXE "%1" /ou "%u"
+PowerPoint.SlideMacroEnabled.12=C:\PROGRA~2\MICROS~1\Office15\POWERPNT.EXE "%1" /ou "%u"
+PowerPoint.SlideShow.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" /s "%1" /ou "%u"
+PowerPoint.SlideShow.8="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" /s "%1" /ou "%u"
+PowerPoint.SlideShowMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" /s "%1" /ou "%u"
+PowerPoint.Template.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.Template.8="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.TemplateMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.UriLink.15=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+PowerPoint.Wizard.8="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+powerpointhtmlfile="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE"
+powerpointhtmltemplate="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE"
+powerpointxmlfile="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE"
+prffile="%SystemRoot%\System32\rundll32.exe" "%SystemRoot%\System32\msrating.dll",ClickedOnPRF %1
+Publisher=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+Publisher.Document.15="C:\Program Files (x86)\Microsoft Office\Office15\MSPUB.EXE" /ou "%u" "%1"
+Publisher.UriLink.15=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+ratfile="%SystemRoot%\System32\rundll32.exe" "%SystemRoot%\System32\msrating.dll",ClickedOnRAT %1
+RDP.File="%systemroot%\system32\mstsc.exe" "%1"
+regedit=regedit.exe "%1"
+regfile=regedit.exe "%1"
+RemoteAssistance.1="%systemRoot%\system32\msra.exe" -openfile "%1"
+rlefile="%systemroot%\system32\mspaint.exe" "%1"
+rlogin="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\url.dll",TelnetProtocolHandler %l
+rtffile="%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE" "%1"
+SavedDsQuery=%SystemRoot%\system32\rundll32.exe %SystemRoot%\system32\dsquery.dll,OpenSavedDsQuery %1
+scrfile="%1" /S
+scriptletfile="C:\Windows\System32\NOTEPAD.EXE" "%1"
+search=%SystemRoot%\Explorer.exe /separate,/idlist,%I,%L
+search-ms=%SystemRoot%\Explorer.exe /separate,/idlist,%I,%L
+SHCmdFile=%SystemRoot%\explorer.exe
+sh_auto_file="C:\Program Files\Git\git-bash.exe" --no-cd "%L" %*
+SPCFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenPKCS7 %1
+stssync="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+svgfile="C:\Program Files\Internet Explorer\iexplore.exe" %1
+tel=C:\PROGRA~2\MICROS~1\Office15\lync.exe "%1"
+telnet="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\url.dll",TelnetProtocolHandler %l
+textfile="%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE" "%1"
+themefile=%SystemRoot%\system32\rundll32.exe %SystemRoot%\system32\themecpl.dll,OpenThemeAction %1
+themepackfile=%SystemRoot%\system32\rundll32.exe %SystemRoot%\system32\themecpl.dll,OpenThemeAction %1
+TIFImage.Document=%SystemRoot%\System32\rundll32.exe "%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll", ImageView_Fullscreen %1
+tn3270="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\url.dll",TelnetProtocolHandler %l
+txtfile=%SystemRoot%\system32\NOTEPAD.EXE %1
+Undecided=%SystemRoot%\system32\OpenWith.exe "%1"
+Unknown=%SystemRoot%\system32\OpenWith.exe "%1"
+VBEFile="%SystemRoot%\System32\WScript.exe" "%1" %*
+VBSFile="%SystemRoot%\System32\WScript.exe" "%1" %*
+vcard_wab_auto_file="%ProgramFiles%\Windows Mail\wab.exe" /vcard "%1"
+VisioViewer.Viewer="C:\Program Files (x86)\Internet Explorer\iexplore.exe" -nohome
+WAB.AssocProtocol.LDAP="%ProgramFiles%\Windows Mail\wab.exe" "/ldap:%1"
+wab_auto_file="%ProgramFiles%\Windows Mail\wab.exe" /Import "%1"
+wbcatfile=%SystemRoot%\system32\sdclt.exe /restorepage
+wcxfile="C:\Windows\System32\xwizard.exe" RunWizard /u {7940acf8-60ba-4213-a7c3-f3b400ee266d} /z%1
+webcal="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+webcals="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+webpnpFile=%SystemRoot%\system32\wpnpinst.exe %1
+Windows.CompositeFont="%SystemRoot%\System32\notepad.exe" "%1"
+Windows.XamlDocument="C:\Windows\System32\PresentationHost.exe" "%1" %*
+Windows.Xbap="C:\Windows\System32\PresentationHost.exe" "%1" %*
+Windows.XPSReachViewer=%SystemRoot%\System32\xpsrchvw.exe "%1" %*
+WindowsDefender="C:\Program Files\Windows Defender\MSASCui.exe" %1
+WindowsStore.License=%SystemRoot%\System32\licensemanagershellext.exe "%1"
+WinRAR="C:\Program Files (x86)\WinRAR\WinRAR.exe" "%1"
+WinRAR.REV="C:\Program Files (x86)\WinRAR\WinRAR.exe" "%1"
+WinRAR.ZIP="C:\Program Files (x86)\WinRAR\WinRAR.exe" "%1"
+wmffile="%systemroot%\system32\mspaint.exe" "%1"
+WMP.DVR-MSFile="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP.WTVFile="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.3G2="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.3GP="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.ADTS="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.AIFF="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.ASF="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:7 /Open "%L"
+WMP11.AssocFile.ASX="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.AU="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.AVI="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:8 /Open "%L"
+WMP11.AssocFile.CDA="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.FLAC="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.M2TS="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:12 /Open "%L"
+WMP11.AssocFile.m3u="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.M4A="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MIDI="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.MK3D="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MKA="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MKV="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MOV="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MP3="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MP4="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MPEG="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:9 /Open "%L"
+WMP11.AssocFile.TTS="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:12 /Open "%L"
+WMP11.AssocFile.WAV="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.WAX="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.wma="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:5 /Open "%L"
+WMP11.AssocFile.WMD="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /WMPackage:"%L"
+WMP11.AssocFile.WMS="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /layout:"%L"
+WMP11.AssocFile.WMV="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:7 /Open "%L"
+WMP11.AssocFile.WMZ="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /layout:"%L"
+WMP11.AssocFile.WPL="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.WVX="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocProtocol.DLNA-PLAYSINGLE="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" "%L"
+WMP11.AssocProtocol.MMS="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" "%L"
+Word=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+Word.Backup.8="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.Document.12="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.Document.8="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.DocumentMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.OpenDocumentText.12="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1"
+Word.RTF.8="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.Template.12="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.Template.8="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.TemplateMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.UriLink.15=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+wordhtmlfile="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE"
+wordhtmltemplate="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE"
+Wordpad.Document.1="%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE" "%1"
+WPDContextMenu.Url="%SystemRoot%\System32\rundll32.exe" "%SystemRoot%\System32\ieframe.dll",OpenURL %l
+WSFFile="%SystemRoot%\System32\WScript.exe" "%1" %*
+WSHFile="%SystemRoot%\System32\WScript.exe" "%1" %*
+XEV.FailSafeApp=%SystemRoot%\system32\NOTEPAD.EXE %1
+XEV.GenericApp="C:\Program Files\Internet Explorer\iexplore.exe" %1
+XEV.OriginalApp="C:\Program Files\Internet Explorer\iexplore.exe" %1
+xhtmlfile="C:\Program Files\Internet Explorer\iexplore.exe" %1
+xmlfile="C:\Program Files (x86)\Common Files\Microsoft Shared\OFFICE15\MSOXMLED.EXE" /verb open "%1"
+xslfile="C:\Program Files\Internet Explorer\iexplore.exe" %1
+zapfile=%SystemRoot%\system32\NOTEPAD.EXE %1
+C:\Users\Nailatur Rahmadiah>Msg
+Send a message to a user.
+
+MSG {username | sessionname | sessionid | @filename | *}
+    [/SERVER:servername] [/TIME:seconds] [/V] [/W] [message]
+
+  username            Identifies the specified username.
+  sessionname         The name of the session.
+  sessionid           The ID of the session.
+  @filename           Identifies a file containing a list of usernames,
+                      sessionnames, and sessionids to send the message to.
+  *                   Send message to all sessions on specified server.
+  /SERVER:servername  server to contact (default is current).
+  /TIME:seconds       Time delay to wait for receiver to acknowledge msg.
+  /V                  Display information about actions being performed.
+  /W                  Wait for response from user, useful with /V.
+  message             Message to send.  If none specified, prompts for it
+                      or reads from stdin.
+C:\Users\Nailatur Rahmadiah>defrag
+Microsoft Drive Optimizer
+Copyright (c) 2013 Microsoft Corp.
+
+Description:
+
+        Optimizes and defragments files on local volumes to
+        improve system performance.
+
+Syntax:
+
+        defrag <volumes> | /C | /E <volumes> [<task(s)>] [/H] [/M [n] | [/U] [/V]] [/I n]
+
+        Where <task(s)> is omitted (traditional defrag), or as follows:
+                /A | [/D] [/K] [/L] | /O | /X
+
+        Or, to track an operation already in progress on a volume:
+        defrag <volume> /T
+
+Parameters:
+
+        Value   Description
+
+        /A      Perform analysis on the specified volumes.
+
+        /C      Perform the operation on all volumes.
+
+        /D      Perform traditional defrag (this is the default).
+
+        /E      Perform the operation on all volumes except those specified.
+
+        /G      Optimize the storage tiers on the specified volumes.
+
+        /H      Run the operation at normal priority (default is low).
+
+        /I n    Tier optimization would run for at most n seconds on each volume.
+
+        /K      Perform slab consolidation on the specified volumes.
+
+        /L      Perform retrim on the specified volumes.
+
+        /M [n]  Run the operation on each volume in parallel in the background.
+                At most n threads optimize the storage tiers in parallel.
+
+        /O      Perform the proper optimization for each media type.
+
+        /T      Track an operation already in progress on the specified volume.
+
+        /U      Print the progress of the operation on the screen.
+
+        /V      Print verbose output containing the fragmentation statistics.
+
+        /X      Perform free space consolidation on the specified volumes.
+
+Examples:
+
+        defrag C: /U /V
+        defrag C: D: /M
+        defrag C:\mountpoint /A /U
+        defrag /C /H /V
+
+C:\Users\Nailatur Rahmadiah>chcp
+Active code page: 437
+C:\Users\Nailatur Rahmadiah>clip
+
+INFO: Type "CLIP /?" for usage.
+C:\Users\Nailatur Rahmadiah>cipher
+
+ Listing C:\Users\Nailatur Rahmadiah\
+ New files added to this directory will not be encrypted.
+
+U Contacts
+U Desktop
+U Documents
+U Downloads
+U Favorites
+U Links
+U Music
+U Pictures
+U Saved Games
+U Searches
+U Tree
+U Videos
+C:\Users\Nailatur Rahmadiah>chkntfs
+You must specify at least one drive name.
+C:\Users\Nailatur Rahmadiah>chcp
+Active code page: 437
+C:\Users\Nailatur Rahmadiah>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 009C-7951
+
+ Directory of C:\Users\Nailatur Rahmadiah
+
+08/19/2022  09:56 AM    <DIR>          .
+08/19/2022  09:56 AM    <DIR>          ..
+08/19/2022  12:50 AM    <DIR>          Contacts
+08/19/2022  12:50 AM    <DIR>          Desktop
+08/19/2022  12:50 AM    <DIR>          Documents
+08/19/2022  08:24 AM    <DIR>          Downloads
+08/19/2022  12:50 AM    <DIR>          Favorites
+08/19/2022  12:50 AM    <DIR>          Links
+08/19/2022  12:50 AM    <DIR>          Music
+08/19/2022  12:50 AM    <DIR>          Pictures
+08/19/2022  12:50 AM    <DIR>          Saved Games
+08/19/2022  12:51 AM    <DIR>          Searches
+08/19/2022  09:56 AM                 0 Tree
+08/19/2022  12:50 AM    <DIR>          Videos
+               1 File(s)              0 bytes
+              13 Dir(s)  216,404,275,200 bytes free
+C:\Users\Nailatur Rahmadiah>Ftype
+Access=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+Access.ACCDAExtension.15=C:\PROGRA~2\MICROS~1\Office15\MSACCESS.EXE /NOSTARTUP "%1"
+Access.ACCDCFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1"
+Access.ACCDEFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.ACCDRFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /RUNTIME "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.ACCDTFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1"
+Access.ADEFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.Application.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.BlankDatabaseTemplate.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /NEWDB "%1"
+Access.BlankProjectTemplate.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /NEWDB "%1"
+Access.Extension.15=C:\PROGRA~2\MICROS~1\Office15\MSACCESS.EXE /NOSTARTUP "%1"
+Access.MDBFile="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.MDEFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.Project.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.Shortcut.DataAccessPage.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenDataAccessPage "%1"]
+Access.Shortcut.Diagram.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenDiagram "%1"]
+Access.Shortcut.Form.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenForm "%1"]
+Access.Shortcut.Function.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /SHELLSYSTEM [OpenFunction "%1"]
+Access.Shortcut.Macro.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [ShellOpenMacro "%1"]
+Access.Shortcut.Module.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenModule "%1"]
+Access.Shortcut.Query.1=C:\PROGRA~2\MICROS~1\Office15\MSACCESS.EXE /NOSTARTUP /SHELLSYSTEM [OpenQuery "%1"]
+Access.Shortcut.Report.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenReport "%1", 2]
+Access.Shortcut.StoredProcedure.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenStoredProcedure "%1"]
+Access.Shortcut.Table.1=C:\PROGRA~2\MICROS~1\Office15\MSACCESS.EXE /NOSTARTUP /SHELLSYSTEM [OpenTable "%1"]
+Access.Shortcut.View.1="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP /SHELLSYSTEM [OpenView "%1"]
+Access.UriLink.15=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+Access.WebApplicationReference.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1" %2 %3 %4 %5 %6 %7 %8 %9
+Access.WizardDataFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1"
+Access.WizardUserDataFile.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1"
+Access.Workgroup.15="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE" /NOSTARTUP "%1"
+accesshtmlfile="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE"
+accessthmltemplate="C:\Program Files (x86)\Microsoft Office\Office15\MSACCESS.EXE"
+Application.Manifest="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\dfshim.dll",ShOpenVerbApplication %1
+Application.Reference="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\dfshim.dll",ShOpenVerbShortcut %1|%2
+batfile="%1" %*
+bootstrap.vsto.1=rundll32.exe "C:\Program Files (x86)\Common Files\Microsoft Shared\VSTO\vstoee.dll",InstallVstoSolution %1
+brmFile="PrintBrmUI.exe" /import /file:"%1"
+CABFolder=%SystemRoot%\Explorer.exe /idlist,%I,%L
+calculator=C:\Windows\System32\win32calc.exe
+CATFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenCAT %1
+CERFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenCER %1
+CertificateStoreFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenSTR %1
+certificate_wab_auto_file="%ProgramFiles%\Windows Mail\wab.exe" /certificate "%1"
+chm.file="%SystemRoot%\hh.exe" %1
+ChromeHTML="C:\Program Files\Google\Chrome\Application\chrome.exe" --single-argument %1
+cmdfile="%1" %*
+comfile="%1" %*
+CompressedFolder=%SystemRoot%\Explorer.exe /idlist,%I,%L
+contact_wab_auto_file="%ProgramFiles%\Windows Mail\wab.exe" /contact "%1"
+CRLFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenCRL %1
+desktopthemepackfile=%SystemRoot%\system32\rundll32.exe %SystemRoot%\system32\themecpl.dll,OpenThemeAction %1
+Diagnostic.Cabinet=%SystemRoot%\system32\msdt.exe /cab "%1"
+Diagnostic.Config=%SystemRoot%\system32\msdt.exe /path "%1"
+Diagnostic.Document=%SystemRoot%\system32\msdt.exe /path "%1"
+Diagnostic.Perfmon.Config=%SystemRoot%\system32\perfmon /sys /load "%1"
+Diagnostic.Perfmon.Document=%SystemRoot%\system32\perfmon /sys /open "%1"
+Diagnostic.Resmon.Config=%SystemRoot%\system32\perfmon /res /load "%1"
+DLNA-PLAYSINGLE="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" "%L"
+docxfile="%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE" "%1"
+dqyfile=C:\PROGRA~2\MICROS~1\Office15\EXCEL.EXE
+emffile="%systemroot%\system32\mspaint.exe" "%1"
+evtfile=%SystemRoot%\system32\eventvwr.exe /l:"%1"
+evtxfile=%SystemRoot%\system32\eventvwr.exe /l:"%1"
+Excel=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+Excel.Addin="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.AddInMacroEnabled="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Backup="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Chart=C:\PROGRA~2\MICROS~1\Office15\EXCEL.EXE /dde
+Excel.CSV="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Macrosheet="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.OpenDocumentSpreadsheet.12="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Sheet.12="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Sheet.8="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.SheetBinaryMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.SheetMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.SLK="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Template="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.Template.8="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.TemplateMacroEnabled="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.UriLink.15=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+Excel.Workspace="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excel.XLL="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE" /dde
+Excelhtmlfile="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE"
+Excelhtmltemplate="C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE"
+exefile="%1" %*
+Explorer.AssocActionId.BurnSelection=%SystemRoot%\explorer.exe
+Explorer.AssocActionId.EraseDisc=%SystemRoot%\explorer.exe
+Explorer.AssocActionId.ZipSelection=%SystemRoot%\explorer.exe
+Explorer.AssocProtocol.search-ms=%SystemRoot%\Explorer.exe /separate,/idlist,%I,%L
+FaxCover.Document=C:\Windows\System32\fxscover.exe "%1"
+feed="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+feeds="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+Folder=%SystemRoot%\Explorer.exe
+ftp="C:\Program Files\Internet Explorer\iexplore.exe" %1
+giffile="C:\Program Files\Internet Explorer\iexplore.exe" %1
+Groove.SPFS.OneNoteStub="C:\Program Files (x86)\Microsoft Office\Office15\GROOVE.EXE" /OneNoteStub: "%1"
+group_wab_auto_file="%ProgramFiles%\Windows Mail\wab.exe" /Group "%1"
+grvOpen=C:\PROGRA~2\MICROS~1\Office15\GROOVE.EXE /TakeOffline: "%1"
+hlpfile=%SystemRoot%\winhlp32.exe %1
+htafile=C:\Windows\SysWOW64\mshta.exe "%1" {1E460BD7-F1C3-4B2E-88BF-4E770A288AF5}%U{1E460BD7-F1C3-4B2E-88BF-4E770A288AF5} %*
+htmlfile="C:\Program Files\Internet Explorer\iexplore.exe" %1
+http="C:\Program Files\Internet Explorer\iexplore.exe" %1
+https="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.AssocFile.HTM="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.AssocFile.MHT="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.AssocFile.PARTIAL="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.AssocFile.SVG="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.AssocFile.URL="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\ieframe.dll",OpenURL %l
+IE.AssocFile.WEBSITE="C:\Program Files\Internet Explorer\iexplore.exe" -w "%l" %*
+IE.AssocFile.XHT="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.FTP="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.HTTP="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IE.HTTPS="C:\Program Files\Internet Explorer\iexplore.exe" %1
+IMEDictionaryCompiler="%WINDIR%\system32\IME\SHARED\imewdbld.exe" "%1" %*
+imesxfile="%WINDIR%\system32\IME\SHARED\imesearch.exe" "%1"
+inffile=%SystemRoot%\system32\NOTEPAD.EXE %1
+InfoPath=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+InfoPath.Document.4="C:\Program Files (x86)\Microsoft Office\Office15\INFOPATH.EXE" "%1"
+InfoPath.Solution.4="C:\Program Files (x86)\Microsoft Office\Office15\INFOPATH.EXE" "%1"
+InfoPath.SolutionManifest.4="C:\Program Files (x86)\Microsoft Office\Office15\INFOPATH.EXE" "%1"
+inifile=%SystemRoot%\system32\NOTEPAD.EXE %1
+Intel.GraphicsControlPanel.igp.1=GfxUIEx.exe %1
+InternetShortcut="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\ieframe.dll",OpenURL %l
+iqyfile=C:\PROGRA~2\MICROS~1\Office15\EXCEL.EXE /dde
+JSEFile=C:\Windows\System32\WScript.exe "%1" %*
+JSFile=C:\Windows\System32\WScript.exe "%1" %*
+LDAP="%ProgramFiles%\Windows Mail\wab.exe" "/ldap:%1"
+Lync15=C:\PROGRA~2\MICROS~1\Office15\lync.exe "%1"
+Lync15classic=C:\PROGRA~2\MICROS~1\Office15\lync.exe "%1"
+MacromediaFlashPaper.MacromediaFlashPaper="%ProgramFiles%\Internet Explorer\iexplore.exe" "%1"
+mailto="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" -c IPM.Note /mailto "%1"
+mhtmlfile="C:\Program Files\Internet Explorer\iexplore.exe" %1
+Microsoft.Lync.15ClassicJoin.1=C:\PROGRA~2\MICROS~1\Office15\lync.exe "%1"
+Microsoft.Lync.15Join.1=C:\PROGRA~2\MICROS~1\Office15\lync.exe "%1"
+Microsoft.Lync.15TelProtocol.1=C:\PROGRA~2\MICROS~1\Office15\lync.exe "%1"
+Microsoft.PowerShellConsole.1="C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -p "%1"
+Microsoft.PowerShellData.1="C:\Windows\System32\notepad.exe" "%1"
+Microsoft.PowerShellModule.1="C:\Windows\System32\notepad.exe" "%1"
+Microsoft.PowerShellScript.1="C:\Windows\System32\notepad.exe" "%1"
+Microsoft.ProvTool.Provisioning.1="%SystemRoot%\System32\provtool.exe" "%1"
+Microsoft.System.Update.1="%systemroot%\system32\wusa.exe" "%1" %*
+Microsoft.Website="C:\Program Files\Internet Explorer\iexplore.exe" -w "%l" %*
+Microsoft.Workfolders=C:\Windows\System32\control.exe /name Microsoft.WorkFolders
+MMS="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" "%L"
+ms-access=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+ms-availablenetworks="%SystemRoot%\system32\LaunchWinApp.exe" "%1"
+ms-excel=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+ms-infopath=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+ms-powerpoint=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+ms-publisher=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+ms-settings-connectabledevices="%SystemRoot%\system32\LaunchWinApp.exe" "%1"
+ms-settings-displays-topology="%SystemRoot%\system32\LaunchWinApp.exe" "%1"
+ms-word=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+mscfile=%SystemRoot%\system32\mmc.exe "%1" %*
+MSDASC=Rundll32.exe "%CommonProgramFiles%\System\OLE DB\oledb32.dll",OpenDSLFile %1
+Msi.Package="%SystemRoot%\System32\msiexec.exe" /i "%1" %*
+Msi.Patch="%SystemRoot%\System32\msiexec.exe" /p "%1" %*
+MSInfoFile=%SystemRoot%\system32\msinfo32.exe "%1"
+MSSppLicenseFile="iexplore.exe" "%1"
+MSStorageSense=explorer ms-settings:storagesense
+msstylesfile=%SystemRoot%\system32\rundll32.exe %SystemRoot%\system32\shell32.dll,Control_RunDLL %SystemRoot%\system32\desk.cpl desk,@Appearance /Action:OpenMSTheme /file:"%1"
+odtfile="%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE" "%1"
+OfficeListShortcut="C:\Program Files (x86)\Microsoft Office\Office15\MSPUB.EXE" %1
+OfficeTheme.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+oms=rundll32.exe C:\PROGRA~2\MICROS~1\Office15\OMSMAIN.DLL, OmsProtocolHandler %1
+OneNote="C:\PROGRA~2\MICROS~1\Office15\ONENOTE.EXE" /hyperlink "%1"
+OneNote.Folder.1="C:\PROGRA~2\MICROS~1\Office15\ONENOTE.EXE" "%1"
+OneNote.Notebook.1="C:\PROGRA~2\MICROS~1\Office15\ONENOTE.EXE" "%1"
+OneNote.Package="C:\Program Files (x86)\Microsoft Office\Office15\ONENOTE.EXE" "%1"
+OneNote.Section.1="C:\Program Files (x86)\Microsoft Office\Office15\ONENOTE.EXE" "%1"
+OneNote.TableOfContents="C:\Program Files (x86)\Microsoft Office\Office15\ONENOTE.EXE" /navigate "%1"
+OneNote.TableOfContents.12="C:\Program Files (x86)\Microsoft Office\Office15\ONENOTE.EXE" /navigate "%1"
+OneNote.URL.15="C:\PROGRA~2\MICROS~1\Office15\ONENOTE.EXE" /hyperlink "%1"
+OneNoteDesktop="C:\PROGRA~2\MICROS~1\Office15\ONENOTE.EXE" /hyperlink "%1"
+OneNoteDesktop.URL.15="C:\PROGRA~2\MICROS~1\Office15\ONENOTE.EXE" /hyperlink "%1"
+opensearchdescription=%SystemRoot%\explorer.exe
+Outlook.File.eml.15=C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE /eml "%1"
+Outlook.File.hol.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /hol "%1"
+Outlook.File.ics.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /ical "%1"
+Outlook.File.msg.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /f "%1"
+Outlook.File.oft.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /t "%1"
+Outlook.File.pst.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /pst "%1"
+Outlook.File.vcf.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /v "%1"
+Outlook.File.vcs.15="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" /vcal "%1"
+Outlook.URL.feed.15="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+Outlook.URL.mailto.15="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" -c IPM.Note /mailto "%1"
+Outlook.URL.stssync.15="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+Outlook.URL.webcal.15="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+P7RFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenP7R %1
+P7SFile=%SystemRoot%\system32\\rundll32.exe cryptext.dll,CryptExtOpenPKCS7 %1
+pbkfile=%SystemRoot%\system32\rasphone.exe -f "%1"
+PerfFile=%SystemRoot%\system32\mmc.exe %systemroot%\system32\perfmon.msc /F "%1"
+PFXFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenPFX %1
+PhotoViewer.FileAssoc.Tiff=%SystemRoot%\System32\rundll32.exe "%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll", ImageView_Fullscreen %1
+piffile="%1" %*
+PowerPoint=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+PowerPoint.Addin.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.Addin.8="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1"
+PowerPoint.OpenDocumentPresentation.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.Show.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.Show.8="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.ShowMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.Slide.12=C:\PROGRA~2\MICROS~1\Office15\POWERPNT.EXE "%1" /ou "%u"
+PowerPoint.Slide.8=C:\PROGRA~2\MICROS~1\Office15\POWERPNT.EXE "%1" /ou "%u"
+PowerPoint.SlideMacroEnabled.12=C:\PROGRA~2\MICROS~1\Office15\POWERPNT.EXE "%1" /ou "%u"
+PowerPoint.SlideShow.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" /s "%1" /ou "%u"
+PowerPoint.SlideShow.8="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" /s "%1" /ou "%u"
+PowerPoint.SlideShowMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" /s "%1" /ou "%u"
+PowerPoint.Template.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.Template.8="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.TemplateMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+PowerPoint.UriLink.15=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+PowerPoint.Wizard.8="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE" "%1" /ou "%u"
+powerpointhtmlfile="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE"
+powerpointhtmltemplate="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE"
+powerpointxmlfile="C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE"
+prffile="%SystemRoot%\System32\rundll32.exe" "%SystemRoot%\System32\msrating.dll",ClickedOnPRF %1
+Publisher=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+Publisher.Document.15="C:\Program Files (x86)\Microsoft Office\Office15\MSPUB.EXE" /ou "%u" "%1"
+Publisher.UriLink.15=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+ratfile="%SystemRoot%\System32\rundll32.exe" "%SystemRoot%\System32\msrating.dll",ClickedOnRAT %1
+RDP.File="%systemroot%\system32\mstsc.exe" "%1"
+regedit=regedit.exe "%1"
+regfile=regedit.exe "%1"
+RemoteAssistance.1="%systemRoot%\system32\msra.exe" -openfile "%1"
+rlefile="%systemroot%\system32\mspaint.exe" "%1"
+rlogin="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\url.dll",TelnetProtocolHandler %l
+rtffile="%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE" "%1"
+SavedDsQuery=%SystemRoot%\system32\rundll32.exe %SystemRoot%\system32\dsquery.dll,OpenSavedDsQuery %1
+scrfile="%1" /S
+scriptletfile="C:\Windows\System32\NOTEPAD.EXE" "%1"
+search=%SystemRoot%\Explorer.exe /separate,/idlist,%I,%L
+search-ms=%SystemRoot%\Explorer.exe /separate,/idlist,%I,%L
+SHCmdFile=%SystemRoot%\explorer.exe
+sh_auto_file="C:\Program Files\Git\git-bash.exe" --no-cd "%L" %*
+SPCFile=%SystemRoot%\system32\rundll32.exe cryptext.dll,CryptExtOpenPKCS7 %1
+stssync="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+svgfile="C:\Program Files\Internet Explorer\iexplore.exe" %1
+tel=C:\PROGRA~2\MICROS~1\Office15\lync.exe "%1"
+telnet="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\url.dll",TelnetProtocolHandler %l
+textfile="%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE" "%1"
+themefile=%SystemRoot%\system32\rundll32.exe %SystemRoot%\system32\themecpl.dll,OpenThemeAction %1
+themepackfile=%SystemRoot%\system32\rundll32.exe %SystemRoot%\system32\themecpl.dll,OpenThemeAction %1
+TIFImage.Document=%SystemRoot%\System32\rundll32.exe "%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll", ImageView_Fullscreen %1
+tn3270="C:\Windows\System32\rundll32.exe" "C:\Windows\System32\url.dll",TelnetProtocolHandler %l
+txtfile=%SystemRoot%\system32\NOTEPAD.EXE %1
+Undecided=%SystemRoot%\system32\OpenWith.exe "%1"
+Unknown=%SystemRoot%\system32\OpenWith.exe "%1"
+VBEFile="%SystemRoot%\System32\WScript.exe" "%1" %*
+VBSFile="%SystemRoot%\System32\WScript.exe" "%1" %*
+vcard_wab_auto_file="%ProgramFiles%\Windows Mail\wab.exe" /vcard "%1"
+VisioViewer.Viewer="C:\Program Files (x86)\Internet Explorer\iexplore.exe" -nohome
+WAB.AssocProtocol.LDAP="%ProgramFiles%\Windows Mail\wab.exe" "/ldap:%1"
+wab_auto_file="%ProgramFiles%\Windows Mail\wab.exe" /Import "%1"
+wbcatfile=%SystemRoot%\system32\sdclt.exe /restorepage
+wcxfile="C:\Windows\System32\xwizard.exe" RunWizard /u {7940acf8-60ba-4213-a7c3-f3b400ee266d} /z%1
+webcal="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+webcals="C:\PROGRA~2\MICROS~1\Office15\OUTLOOK.EXE" /share "%1"
+webpnpFile=%SystemRoot%\system32\wpnpinst.exe %1
+Windows.CompositeFont="%SystemRoot%\System32\notepad.exe" "%1"
+Windows.XamlDocument="C:\Windows\System32\PresentationHost.exe" "%1" %*
+Windows.Xbap="C:\Windows\System32\PresentationHost.exe" "%1" %*
+Windows.XPSReachViewer=%SystemRoot%\System32\xpsrchvw.exe "%1" %*
+WindowsDefender="C:\Program Files\Windows Defender\MSASCui.exe" %1
+WindowsStore.License=%SystemRoot%\System32\licensemanagershellext.exe "%1"
+WinRAR="C:\Program Files (x86)\WinRAR\WinRAR.exe" "%1"
+WinRAR.REV="C:\Program Files (x86)\WinRAR\WinRAR.exe" "%1"
+WinRAR.ZIP="C:\Program Files (x86)\WinRAR\WinRAR.exe" "%1"
+wmffile="%systemroot%\system32\mspaint.exe" "%1"
+WMP.DVR-MSFile="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP.WTVFile="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.3G2="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.3GP="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.ADTS="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.AIFF="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.ASF="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:7 /Open "%L"
+WMP11.AssocFile.ASX="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.AU="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.AVI="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:8 /Open "%L"
+WMP11.AssocFile.CDA="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.FLAC="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.M2TS="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:12 /Open "%L"
+WMP11.AssocFile.m3u="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.M4A="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MIDI="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.MK3D="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MKA="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MKV="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MOV="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MP3="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MP4="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:6 /Open "%L"
+WMP11.AssocFile.MPEG="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:9 /Open "%L"
+WMP11.AssocFile.TTS="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:12 /Open "%L"
+WMP11.AssocFile.WAV="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.WAX="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.wma="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:5 /Open "%L"
+WMP11.AssocFile.WMD="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /WMPackage:"%L"
+WMP11.AssocFile.WMS="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /layout:"%L"
+WMP11.AssocFile.WMV="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /prefetch:7 /Open "%L"
+WMP11.AssocFile.WMZ="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /layout:"%L"
+WMP11.AssocFile.WPL="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocFile.WVX="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" /Open "%L"
+WMP11.AssocProtocol.DLNA-PLAYSINGLE="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" "%L"
+WMP11.AssocProtocol.MMS="%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe" "%L"
+Word=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+Word.Backup.8="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.Document.12="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.Document.8="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.DocumentMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.OpenDocumentText.12="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1"
+Word.RTF.8="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.Template.12="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.Template.8="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.TemplateMacroEnabled.12="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE" /n "%1" /o "%u"
+Word.UriLink.15=C:\PROGRA~2\MICROS~1\Office15\PROTOC~1.EXE "%1"
+wordhtmlfile="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE"
+wordhtmltemplate="C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE"
+Wordpad.Document.1="%ProgramFiles%\Windows NT\Accessories\WORDPAD.EXE" "%1"
+WPDContextMenu.Url="%SystemRoot%\System32\rundll32.exe" "%SystemRoot%\System32\ieframe.dll",OpenURL %l
+WSFFile="%SystemRoot%\System32\WScript.exe" "%1" %*
+WSHFile="%SystemRoot%\System32\WScript.exe" "%1" %*
+XEV.FailSafeApp=%SystemRoot%\system32\NOTEPAD.EXE %1
+XEV.GenericApp="C:\Program Files\Internet Explorer\iexplore.exe" %1
+XEV.OriginalApp="C:\Program Files\Internet Explorer\iexplore.exe" %1
+xhtmlfile="C:\Program Files\Internet Explorer\iexplore.exe" %1
+xmlfile="C:\Program Files (x86)\Common Files\Microsoft Shared\OFFICE15\MSOXMLED.EXE" /verb open "%1"
+xslfile="C:\Program Files\Internet Explorer\iexplore.exe" %1
+zapfile=%SystemRoot%\system32\NOTEPAD.EXE %1
