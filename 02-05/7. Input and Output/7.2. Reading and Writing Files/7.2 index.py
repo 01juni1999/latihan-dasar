@@ -1,0 +1,9 @@
+f = open('workfile', 'w', encoding="utf-8")
+with open('workfile', encoding="utf-8") as f:
+    read_data = f.read()
+    # We can check that the file has been automatically closed.
+    print(f.closed)
+    f.close()
+    f.read()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
