@@ -13,7 +13,7 @@ def index():
         user="postgres",
         password="PPQS0106"
     )
-    curs = conn. cursor()
+    curs = conn.cursor()
     if request.method == "POST":
         nama=request.form["nama"]
         detail=request.form["detail"]
@@ -43,7 +43,7 @@ def detail(buah_id):
     curs = conn.cursor()
     query = f"select * from buah where id = {buah_id}"
     curs.execute(query)
-    data = curs.fetchall()
+    data = curs.fetchone()
     curs.close()
     conn.close()
     print(data)
@@ -67,7 +67,49 @@ def delete(buah_id):
     conn.close()
     return redirect("/")
     
+# @app.route("/update/<buah_id>")
+# def update(buah_id):
+#     conn = psycopg2.connect(
+#         host="localhost",
+#         database="contoh",
+#         user="postgres",
+#         password="PPQS0106")
+        
+#     curs = conn.cursor()
+#     namalama = 'SUBHANALLAH' 
+#     namabaru = 'HASBUNALLAH'
+#     detailbaru = 'ALLAH'
+#     query= f"update buah set nama='{namabaru}', detail ='{detailbaru}' where nama='{namalama}'"
+
+#     curs.execute(query)
+#     conn.commit()
+#     print("data masuk")
+#     return redirect("/")
+
+@app.route("/update/<buah_id>", methods=["GET", "POST"])
+def update(buah_id):
+    conn = psycopg2.connect(
+        host="localhost",
+        database="contoh",
+        user="postgres",
+        password="PPQS0106"
+    )
+    curs = conn.cursor()
+    if request.method == "POST":
+        nama = request.form.get("nama")
+        detail= request.form.get("detail")
+        query = f"update buah set nama = '{nama}', detail = '{detail}' where id = {buah_id}"
+        curs.execute(query)
+        conn.commit()
+        return redirect ("/")
    
+    query= f"select * from buah where id = {buah_id}"
+    curs.execute(query)
+    data = curs.fetchone()
+    curs.close()
+    conn.close()
+    return render_template("update.html", context=data)
+
 
 if __name__ == "__main__":
         app.run()
