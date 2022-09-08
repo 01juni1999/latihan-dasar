@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>latihan membuat tabel</title>
+<style>    
+    table {
+        font-family: arial sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td,th {
+        border: 1px solid #df5d5d;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #e414c1e7;
+    }
+</style>
+</head>
+
+<body>
+    <div>
+    <h1>ini request</h1>
+    <form action=""method="POST">
+        <input name="nama" type="text">
+        <input name="detail" type="detail" required>
+        <button type="submit">kirim</button>
+    </form>
+
+        <hr>
+        <h1>ini response</h1>
+        <br>
+         <table>
+            <tr>
+                <th>id</th>
+                <th>nama</th>
+                <th>actions</th>
+                
+            </tr>
+            {% for d in context %}
+            <tr>
+                <td>{{loop.index}}</td>
+                <td>{{d[1]}}</td>
+                <td>
+                <a href="/detail/{{d[0]}}">
+                    <button class="btn btn-info">detail</button>
+                </a>
+                <a href="/update/{{d[0]}}">
+                    <button class="btn-btn-warning">update</button>
+                </a>
+                <a href="/delete/{{d[0]}}">
+                    <button class="btn-btn-denger">delete</button>
+                </a>
+                </td>
+            </tr>
+                {% endfor%}
+        </table>
+
+<hr>
+<h1>ini response</h1>
+{{context}}
+<br>
+{% for d in contex %}
+<ul>
+    <li>{{d}}</li>
+</ul>
+{% endfor %}
+
+    </div>
+    </body>
+
+    </html>
